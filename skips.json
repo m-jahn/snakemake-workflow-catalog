@@ -1,5 +1,217 @@
 [
   {
+    "full_name": "EthicalML/awesome-production-machine-learning",
+    "updated_at": 1740974625.0
+  },
+  {
+    "full_name": "Aurametrix/Alg",
+    "updated_at": 1740971264.0
+  },
+  {
+    "full_name": "oxsecurity/megalinter",
+    "updated_at": 1740969058.0
+  },
+  {
+    "full_name": "r0xsh/my-awesome-stars",
+    "updated_at": 1740967943.0
+  },
+  {
+    "full_name": "rapidrabbit76/awesome-stars",
+    "updated_at": 1740967792.0
+  },
+  {
+    "full_name": "tycloud97/awesome-stars",
+    "updated_at": 1740967777.0
+  },
+  {
+    "full_name": "ryguy2k4/studytime",
+    "updated_at": 1740965935.0
+  },
+  {
+    "full_name": "SaschaLucius/my-awesome-stars",
+    "updated_at": 1740961709.0
+  },
+  {
+    "full_name": "resheku/my-awesome",
+    "updated_at": 1740960704.0
+  },
+  {
+    "full_name": "SouthGreenPlatform/PanExplorer",
+    "updated_at": 1740950184.0
+  },
+  {
+    "full_name": "snakemake/poetry-snakemake-plugin",
+    "updated_at": 1740933809.0
+  },
+  {
+    "full_name": "rasilab/nugent_2024",
+    "updated_at": 1740931871.0
+  },
+  {
+    "full_name": "hougesen/mdsf",
+    "updated_at": 1740926784.0
+  },
+  {
+    "full_name": "rasilab/r_python",
+    "updated_at": 1740922953.0
+  },
+  {
+    "full_name": "abhilashdasari/Hurdles-and-solutions",
+    "updated_at": 1740921956.0
+  },
+  {
+    "full_name": "liviurotiul/PeGAS",
+    "updated_at": 1740919651.0
+  },
+  {
+    "full_name": "Cynog/masterthesis_code",
+    "updated_at": 1740907099.0
+  },
+  {
+    "full_name": "jimbrig/jimsghstars",
+    "updated_at": 1740903275.0
+  },
+  {
+    "full_name": "BioCloud-platform/WGS_workflow",
+    "updated_at": 1740898421.0
+  },
+  {
+    "full_name": "liuzhenqi77/awesome-stars",
+    "updated_at": 1740881530.0
+  },
+  {
+    "full_name": "liuzhenqi77/awesome-stars",
+    "updated_at": 1740881530.0
+  },
+  {
+    "full_name": "TurakhiaLab/panman",
+    "updated_at": 1740874761.0
+  },
+  {
+    "full_name": "anamikagiri/RNAseq",
+    "updated_at": 1740869926.0
+  },
+  {
+    "full_name": "karubiotools/AnssBin",
+    "updated_at": 1740865490.0
+  },
+  {
+    "full_name": "evergreen700/PTM",
+    "updated_at": 1740865455.0
+  },
+  {
+    "full_name": "wdecoster/pathSTR",
+    "updated_at": 1740865060.0
+  },
+  {
+    "full_name": "PejLab/Pantry",
+    "updated_at": 1740864337.0
+  },
+  {
+    "full_name": "jjyjoy1/Data_Analysis_ML",
+    "updated_at": 1740842277.0
+  },
+  {
+    "full_name": "molinerisLab/dap",
+    "updated_at": 1740834594.0
+  },
+  {
+    "full_name": "siebrenf/lore",
+    "updated_at": 1740833589.0
+  },
+  {
+    "full_name": "zqfang/GSEApy",
+    "updated_at": 1740929352.0
+  },
+  {
+    "full_name": "vivaxgen/ngs-pipeline",
+    "updated_at": 1740802325.0
+  },
+  {
+    "full_name": "kocherlab/pipemake",
+    "updated_at": 1740799268.0
+  },
+  {
+    "full_name": "sethmlarson/pypi-scorecards",
+    "updated_at": 1740788556.0
+  },
+  {
+    "full_name": "GeneRegulationi3S/APAtizer",
+    "updated_at": 1740786819.0
+  },
+  {
+    "full_name": "s-kganz/ForestLST",
+    "updated_at": 1740785232.0
+  },
+  {
+    "full_name": "JCYrepresents/HGT-Archaea-Workflows",
+    "updated_at": 1740782888.0
+  },
+  {
+    "full_name": "FredHutch/workflows-cirro",
+    "updated_at": 1740778133.0
+  },
+  {
+    "full_name": "ld32/SmartSlurm",
+    "updated_at": 1740775520.0
+  },
+  {
+    "full_name": "ewearpel/dengue_snake",
+    "updated_at": 1740771025.0
+  },
+  {
+    "full_name": "Arcadia-Science/long_time_e_coli_experiment",
+    "updated_at": 1740762637.0
+  },
+  {
+    "full_name": "bihealth/StemCNV-check",
+    "updated_at": 1740759552.0
+  },
+  {
+    "full_name": "RasmussenLab/vamb",
+    "updated_at": 1740906051.0
+  },
+  {
+    "full_name": "nextstrain/rsv",
+    "updated_at": 1740755866.0
+  },
+  {
+    "full_name": "maxfieldk/TE-Seq",
+    "updated_at": 1740751758.0
+  },
+  {
+    "full_name": "BesenbacherLab/BBQ",
+    "updated_at": 1740913282.0
+  },
+  {
+    "full_name": "wuwenjie1992/StarryDivineSky",
+    "updated_at": 1740929828.0
+  },
+  {
+    "full_name": "cbg-ethz/mt-SCITE",
+    "updated_at": 1740741807.0
+  },
+  {
+    "full_name": "maxplanck-ie/snakepipes",
+    "updated_at": 1740946310.0
+  },
+  {
+    "full_name": "genepi/umi-pipeline-nf",
+    "updated_at": 1740740440.0
+  },
+  {
+    "full_name": "midiaIDorg/midia_pipe_hull",
+    "updated_at": 1740739142.0
+  },
+  {
+    "full_name": "computational-genomics-lab/ProkAssembly",
+    "updated_at": 1740738718.0
+  },
+  {
+    "full_name": "Deltares/imod-python",
+    "updated_at": 1740737907.0
+  },
+  {
     "full_name": "KTH-dESA/OSeMBE_ECEMF",
     "updated_at": 1739911179.0
   },
@@ -140,10 +352,6 @@
     "updated_at": 1740111856.0
   },
   {
-    "full_name": "TurakhiaLab/panman",
-    "updated_at": 1740076660.0
-  },
-  {
     "full_name": "microbialARC/THRESHER",
     "updated_at": 1740074121.0
   },
@@ -190,10 +398,6 @@
   {
     "full_name": "Nike-Inc/koheesio",
     "updated_at": 1740040334.0
-  },
-  {
-    "full_name": "Aurametrix/Alg",
-    "updated_at": 1740016669.0
   },
   {
     "full_name": "fourzerosix/slurm-guide",
@@ -244,10 +448,6 @@
     "updated_at": 1740099106.0
   },
   {
-    "full_name": "cbg-ethz/mt-SCITE",
-    "updated_at": 1739978019.0
-  },
-  {
     "full_name": "si-ze/RADIAnT",
     "updated_at": 1739977560.0
   },
@@ -260,44 +460,20 @@
     "updated_at": 1739969861.0
   },
   {
-    "full_name": "SouthGreenPlatform/PanExplorer",
-    "updated_at": 1739969777.0
-  },
-  {
     "full_name": "PrincetonUniversity/SPECFEMPP-benchmarks",
     "updated_at": 1739968643.0
-  },
-  {
-    "full_name": "RasmussenLab/vamb",
-    "updated_at": 1740092454.0
   },
   {
     "full_name": "TeamMacLean/nlrsnake",
     "updated_at": 1739965159.0
   },
   {
-    "full_name": "midiaIDorg/midia_pipe_hull",
-    "updated_at": 1739961647.0
-  },
-  {
-    "full_name": "EthicalML/awesome-production-machine-learning",
-    "updated_at": 1740345013.0
-  },
-  {
     "full_name": "pydna-group/pydna",
     "updated_at": 1740070883.0
   },
   {
-    "full_name": "evergreen700/PTM",
-    "updated_at": 1739944948.0
-  },
-  {
     "full_name": "Wytamma/skygrid",
     "updated_at": 1739942205.0
-  },
-  {
-    "full_name": "PejLab/Pantry",
-    "updated_at": 1739929858.0
   },
   {
     "full_name": "microbialARC/DAMAGE",
@@ -308,14 +484,6 @@
     "updated_at": 1740372046.0
   },
   {
-    "full_name": "ryguy2k4/studytime",
-    "updated_at": 1740368778.0
-  },
-  {
-    "full_name": "oxsecurity/megalinter",
-    "updated_at": 1740367256.0
-  },
-  {
     "full_name": "trevor-vincent/awesome-high-performance-computing",
     "updated_at": 1740366047.0
   },
@@ -324,24 +492,8 @@
     "updated_at": 1740363051.0
   },
   {
-    "full_name": "rapidrabbit76/awesome-stars",
-    "updated_at": 1740362872.0
-  },
-  {
-    "full_name": "tycloud97/awesome-stars",
-    "updated_at": 1740362828.0
-  },
-  {
     "full_name": "kdgosik/consulting",
     "updated_at": 1740358155.0
-  },
-  {
-    "full_name": "SaschaLucius/my-awesome-stars",
-    "updated_at": 1740356824.0
-  },
-  {
-    "full_name": "resheku/my-awesome",
-    "updated_at": 1740355858.0
   },
   {
     "full_name": "ShaodongWei/single_cell_sequencing_workflow",
@@ -352,16 +504,8 @@
     "updated_at": 1740332690.0
   },
   {
-    "full_name": "hougesen/mdsf",
-    "updated_at": 1740331413.0
-  },
-  {
     "full_name": "sathyasjali/sathyasjali",
     "updated_at": 1740327503.0
-  },
-  {
-    "full_name": "maxfieldk/TE-Seq",
-    "updated_at": 1740327442.0
   },
   {
     "full_name": "philbowsher/Use-of-Python-in-regulatory-submission-related-work",
@@ -374,14 +518,6 @@
   {
     "full_name": "dhanumjayareddy/BioClockAnalyzer",
     "updated_at": 1740306775.0
-  },
-  {
-    "full_name": "jimbrig/jimsghstars",
-    "updated_at": 1740298362.0
-  },
-  {
-    "full_name": "liuzhenqi77/awesome-stars",
-    "updated_at": 1740276630.0
   },
   {
     "full_name": "sib-swiss/training-collection",
@@ -408,20 +544,8 @@
     "updated_at": 1740218324.0
   },
   {
-    "full_name": "r0xsh/my-awesome-stars",
-    "updated_at": 1740189529.0
-  },
-  {
     "full_name": "gmolveau/starred",
     "updated_at": 1740187205.0
-  },
-  {
-    "full_name": "sethmlarson/pypi-scorecards",
-    "updated_at": 1740183571.0
-  },
-  {
-    "full_name": "s-kganz/ForestLST",
-    "updated_at": 1740179377.0
   },
   {
     "full_name": "NCI-CGR/GwasQcPipeline",
@@ -438,10 +562,6 @@
   {
     "full_name": "alenana99/memod-s",
     "updated_at": 1740158836.0
-  },
-  {
-    "full_name": "zqfang/GSEApy",
-    "updated_at": 1740199049.0
   },
   {
     "full_name": "dsanr/best-of-ML",
@@ -466,10 +586,6 @@
   {
     "full_name": "RMoreiraP/GeONTIpe",
     "updated_at": 1740150599.0
-  },
-  {
-    "full_name": "Deltares/imod-python",
-    "updated_at": 1740150087.0
   },
   {
     "full_name": "BPRC-Bioinfo/LRS-Assembler",
@@ -740,14 +856,6 @@
     "updated_at": 1739709122.0
   },
   {
-    "full_name": "wuwenjie1992/StarryDivineSky",
-    "updated_at": 1739762175.0
-  },
-  {
-    "full_name": "vivaxgen/ngs-pipeline",
-    "updated_at": 1739671654.0
-  },
-  {
     "full_name": "mugpeng/UMseqflow",
     "updated_at": 1739702064.0
   },
@@ -770,10 +878,6 @@
   {
     "full_name": "falgunsinha/differentialGenesAnalyis",
     "updated_at": 1739555532.0
-  },
-  {
-    "full_name": "ld32/SmartSlurm",
-    "updated_at": 1739549508.0
   },
   {
     "full_name": "Hutton-Potato-Genetics/nfHISS",
@@ -878,10 +982,6 @@
   {
     "full_name": "divprasad/updated_illumina_workflow",
     "updated_at": 1738854035.0
-  },
-  {
-    "full_name": "genepi/umi-pipeline-nf",
-    "updated_at": 1738844554.0
   },
   {
     "full_name": "franciscozorrilla/franciscozorrilla",
@@ -1020,10 +1120,6 @@
     "updated_at": 1738959223.0
   },
   {
-    "full_name": "FredHutch/workflows-cirro",
-    "updated_at": 1738958206.0
-  },
-  {
     "full_name": "sanju99/Mtb_Megapipe",
     "updated_at": 1738953943.0
   },
@@ -1110,10 +1206,6 @@
   {
     "full_name": "teristam/snakehelper",
     "updated_at": 1737982724.0
-  },
-  {
-    "full_name": "maxplanck-ie/snakepipes",
-    "updated_at": 1738535712.0
   },
   {
     "full_name": "BenoitPenel/HAMI",
@@ -1314,10 +1406,6 @@
   {
     "full_name": "EngreitzLab/DC_TAP_paper",
     "updated_at": 1737667958.0
-  },
-  {
-    "full_name": "wdecoster/pathSTR",
-    "updated_at": 1737662938.0
   },
   {
     "full_name": "quadram-institute-bioscience/QuaTradis",
@@ -1526,10 +1614,6 @@
   {
     "full_name": "BioMeDS/DTI_Processing_Snakemake",
     "updated_at": 1737119727.0
-  },
-  {
-    "full_name": "bihealth/StemCNV-check",
-    "updated_at": 1737036330.0
   },
   {
     "full_name": "kokitsuyuzaki/urchin-integration-workflow",
@@ -2016,10 +2100,6 @@
     "updated_at": 1730229642.0
   },
   {
-    "full_name": "nextstrain/rsv",
-    "updated_at": 1730222812.0
-  },
-  {
     "full_name": "DennisSchmitz/jovian",
     "updated_at": 1730204953.0
   },
@@ -2154,10 +2234,6 @@
   {
     "full_name": "hodcroftlab/coxsackievirus_a16",
     "updated_at": 1730912446.0
-  },
-  {
-    "full_name": "snakemake/poetry-snakemake-plugin",
-    "updated_at": 1733740876.0
   },
   {
     "full_name": "satijalab/azimuth-references",
@@ -2496,10 +2572,6 @@
     "updated_at": 1732799374.0
   },
   {
-    "full_name": "liviurotiul/PeGAS",
-    "updated_at": 1732793514.0
-  },
-  {
     "full_name": "jackson-peter/FLEPseq2",
     "updated_at": 1732790482.0
   },
@@ -2650,10 +2722,6 @@
   {
     "full_name": "vsbuffalo/grid_df",
     "updated_at": 1733201823.0
-  },
-  {
-    "full_name": "rasilab/nugent_2024",
-    "updated_at": 1733190945.0
   },
   {
     "full_name": "cvn001/transflow",
@@ -5548,10 +5616,6 @@
     "updated_at": 1712144991.0
   },
   {
-    "full_name": "BioCloud-platform/WGS_workflow",
-    "updated_at": 1683423037.0
-  },
-  {
     "full_name": "Kmanjor/GNRS",
     "updated_at": 1662341237.0
   },
@@ -5734,10 +5798,6 @@
   {
     "full_name": "giorkala/fast_mixedmodel_association",
     "updated_at": 1706526414.0
-  },
-  {
-    "full_name": "rasilab/r_python",
-    "updated_at": 1689400002.0
   },
   {
     "full_name": "vieirasaulo/earth-analytics-res",
