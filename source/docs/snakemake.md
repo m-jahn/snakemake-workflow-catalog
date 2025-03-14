@@ -33,5 +33,24 @@ In this code chunk, the input table `data/worldcitiespop.csv` is searched by the
 
 ## Create your own workflows
 
-To do: Add a short description of how to create workflows.
-Link to the template.
+The best starting point to create your own workflows is the [Snakemake workflow template](https://github.com/snakemake-workflows/snakemake-workflow-template).
+
+The template comes with a pre-configured structure that is compatible with the Snakemake catalog ['standardized usage'](<about/adding_workflows>). Just fork or clone the template, start addiong rules and push your workflow to Github. The structure of 'standardized' workflows is like this:
+
+```
+├── config/
+│   └── config.yaml
+│   └── README.md
+├── workflow/
+│   ├── Snakefile
+│   ├── rules/
+│   ├── scripts/
+│   └── envs/
+├── .snakemake-workflow-catalog.yml
+└── README.md
+```
+
+:::{note}
+The template is currently not fully functional as it contains no actual `Snakefile` and test cases. This will be changed in the near future.
+:::
+

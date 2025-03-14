@@ -1,10 +1,16 @@
-```
-:orphan:
-```
 
 # {{ wf["full_name"] }}
 
-{{ wf["badges"] }}
+::::{grid} 4
+{% for badge in ["license", "issues", "stars", "watchers"] %}
+:::{grid-item}
+:columns: auto
+:margin: 0
+:padding: 1
+![](https://img.shields.io/github/{{ badge }}/{{ wf["full_name"] }}?style=flat&label={{ badge }})
+:::
+{% endfor %}
+::::
 
 {{ wf["description"] }}
 
@@ -16,7 +22,18 @@
 **Latest release:** {bdg-primary}`{{ wf["release"] }}`, **Last update:** {bdg-primary}`{{ wf["last_update"] }}`
 
 
-**Linting:** {{ wf["linting"] }}, **Formatting:** {{ wf["formatting"] }}
+**Linting:**
+{% if wf["linting"] == None -%}
+    {bdg-success}`linting: passed`
+{%- else -%}
+    {bdg-danger}`linting: failed`
+{%- endif -%},
+**Formatting:**
+{%- if wf["formatting"] == None -%}
+    {bdg-success}`formatting: passed`
+{%- else -%}
+    {bdg-danger}`formatting: failed`
+{%- endif %}
 
 
 ## Deployment
@@ -58,7 +75,7 @@ Snakedeploy will create two folders, `workflow` and `config`. The former contain
 
 ### Step 3: Configure workflow
 
-To configure the workflow, adapt `config/config.yml` to your needs following the [instructions from the README](#configuration).
+To configure the workflow, adapt `config/config.yml` to your needs following the [instructions below](#configuration).
 
 ### Step 4: Run workflow
 
@@ -111,3 +128,17 @@ snakemake --report report.zip
 _The following section is imported from the workflow's `config/README.md`_.
 
 {{ wf["config_from_readme"] }}
+
+## Linting and formatting
+
+### Linting results
+
+```
+{{ wf["linting"] }}
+```
+
+### Formatting results
+
+```
+{{ wf["formatting"] }}
+```

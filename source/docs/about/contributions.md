@@ -9,4 +9,6 @@ Ideas can be discussed on the [catalog's Issues page](https://github.com/snakema
 The Snakemake Workflow Catalog is open-source and available under the [MIT License](https://choosealicense.com/licenses/mit/).
 For more information and to explore the available workflows, visit https://snakemake.github.io/snakemake-workflow-catalog/.
 
-**Note**: All workflows collected and presented on the Catalog are licensed under their own terms!
+:::{note}
+All workflows collected and presented on the Catalog are licensed under their own terms!
+:::

@@ -26,6 +26,17 @@ def check_deployment(depl):
     return result
 
 
+def check_qc_output(qc_item):
+    if qc_item is None:
+        return None
+    else:
+        result = qc_item.split("\n")
+        if len(result) > 20:
+            return "\n".join(result[:20]) + "\n\n... (truncated)"
+        else:
+            return "\n".join(result)
+
+
 def build_wf_pages():
     # import jinja templates
     env = Environment(
@@ -50,26 +61,11 @@ def build_wf_pages():
         wf_data = {}
         wf_data["full_name"] = current_repo
         md_filename = f"{current_repo.replace('/', ' ')}.md"
-        # prepare title, badges, description and topics
-        badges = []
-        for badge in ["license", "issues", "stars", "watchers"]:
-            badges += [
-                f"![](https://img.shields.io/github/{badge}/{current_repo}"
-                + f"?style=for-the-badge&label={badge}&logo=github)"
-            ]
-        wf_data["badges"] = "\n".join(badges)
+        # prepare title, description, reporting, qc stats, etc.
         wf_data["description"] = repo["description"]
         wf_data["topics"] = repo["topics"]
-        wf_data["linting"] = (
-            "{bdg-success}`passed`"
-            if repo["linting"] == None
-            else "{bdg-danger}`failed`"
-        )
-        wf_data["formatting"] = (
-            "{bdg-success}`passed`"
-            if repo["formatting"] == None
-            else "{bdg-danger}`failed`"
-        )
+        wf_data["linting"] = check_qc_output(repo["linting"])
+        wf_data["formatting"] = check_qc_output(repo["formatting"])
         wf_data["release"] = repo["latest_release"]
         last_update = datetime.fromtimestamp(repo["updated_at"])
         wf_data["last_update"] = datetime.strftime(last_update, "%Y-%m-%d")
