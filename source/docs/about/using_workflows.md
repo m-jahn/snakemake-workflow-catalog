@@ -35,7 +35,7 @@ Use the `--dry-run` option first to check if all inputs are found.
 
 :::
 
-For more detailed instructions, please refer to the individual documentation for each [workflow](workflows/top_wf_by_stars.mdx).
+For more detailed instructions, please refer to the individual documentation for each [workflow](<docs/all_standardized_workflows>).
 
 ## Deployment options
 
@@ -49,6 +49,9 @@ snakemake --cores all --sdm conda
 
 To run the workflow using `apptainer`/`singularity`, use
 
+```bash
+snakemake --cores all --sdm apptainer
+```
 
 To run the workflow using a combination of `conda` and `apptainer`/`singularity` for software deployment, use
 

@@ -97,6 +97,7 @@ To run the workflow using `apptainer`/`singularity`, use
 
 ```bash
 snakemake --cores all --sdm apptainer
+```
 
 {%- endif -%}
 {%- if depl == 'apptainer+conda' %}

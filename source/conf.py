@@ -12,7 +12,8 @@ author = "Johannes Koester, Michael Jahn"
 
 import sys
 import os
-sys.path.insert(0, os.path.abspath('.'))
+
+sys.path.insert(0, os.path.abspath("."))
 
 from build_wf_pages import build_wf_pages
 from build_wf_tables import build_wf_tables
@@ -68,3 +69,15 @@ datatables_class = "sphinx-datatable"
 datatables_options = {
     "order": [[4, "desc"]],
 }
+
+# -- Manage redirection of old to new wf pages -------------------------------
+# these are simply static redirects without wildcards
+rendered_wfs = os.listdir("docs/workflows")
+redirects = {}
+for wf in rendered_wfs:
+    if not wf.endswith(".md"):
+        continue
+    wf_items = wf.replace(".md", "").split(" ")
+    redirects[f"?usage={wf_items[0]}%2F{wf_items[1]}"] = (
+        f"docs/workflows/{wf_items[0]} {wf_items[1]}"
+    )
