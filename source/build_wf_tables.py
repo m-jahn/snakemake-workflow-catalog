@@ -56,7 +56,7 @@ def render_markdown(
         f.write(md_rendered)
 
 
-def main():
+def build_wf_tables():
     # items to select from json file
     selected_items = [
         "full_name",
@@ -113,3 +113,7 @@ def main():
             metric=metric,
             top_n=15,
         )
+
+    # closing statement
+    print("Tables and cards rendered successfully.")
+    return None

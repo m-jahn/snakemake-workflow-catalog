@@ -15,9 +15,11 @@ import os
 sys.path.insert(0, os.path.abspath('.'))
 
 from build_wf_pages import build_wf_pages
+from build_wf_tables import build_wf_tables
 from sphinxawesome_theme.postprocess import Icons
 
 build_wf_pages()
+build_wf_tables()
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
@@ -31,6 +33,7 @@ extensions = [
 
 templates_path = ["_templates"]
 exclude_patterns = []
+
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
@@ -58,7 +61,7 @@ html_sidebars = {
     "**": ["globaltoc.html"],
 }
 
-# settings for data-tables plugin, enables searchable tables;
+# -- Settings for data-tables plugin -----------------------------------------
 # for all settings see https://datatables.net/reference/option/
 datatables_version = "1.13.4"
 datatables_class = "sphinx-datatable"

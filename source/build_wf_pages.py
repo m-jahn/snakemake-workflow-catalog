@@ -83,3 +83,7 @@ def build_wf_pages():
         output_path = output_dir / md_filename
         with open(output_path, "w", encoding="utf-8") as f:
             f.write(md_rendered)
+
+    # closing statement
+    print("Workflow pages rendered successfully.")
+    return None
