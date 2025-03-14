@@ -49,9 +49,6 @@ snakemake --cores all --sdm conda
 
 To run the workflow using `apptainer`/`singularity`, use
 
-```bash
-snakemake --cores all --sdm conda
-```
 
 To run the workflow using a combination of `conda` and `apptainer`/`singularity` for software deployment, use
 
