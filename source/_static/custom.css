@@ -1,0 +1,34 @@
+.image-reference img {
+  display: inline;
+}
+
+.image-reference {
+  border-bottom: none !important;
+}
+
+table code.literal {
+  white-space: nowrap !important;
+}
+
+#content {
+  overflow-x: auto;
+}
+
+figure {
+  padding: 20px;
+  margin: auto;
+  text-align: left;
+}
+
+figcaption {
+  padding: 2px;
+  text-align: center;
+}
+
+:root {
+  --sd-color-primary: #059669;
+  --sd-color-primary-highlight: #056d4c;
+  --sd-color-secondary: #6c757d;
+  --sd-color-secondary-highlight: #5c636a;
+  --sd-color-success: #3cad6e;
+}

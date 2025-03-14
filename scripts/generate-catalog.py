@@ -8,9 +8,7 @@ import urllib
 import tarfile
 import re
 from datetime import timedelta, datetime
-
 import git
-from jinja2 import Environment, FileSystemLoader, select_autoescape
 import yaml
 
 from common import (
@@ -29,10 +27,6 @@ logging.basicConfig(level=logging.INFO)
 test_repo = os.environ.get("TEST_REPO")
 latest_commit = int(os.environ.get("LATEST_COMMIT"))
 offset = int(offset * 10)
-
-env = Environment(
-    autoescape=select_autoescape(["html"]), loader=FileSystemLoader("templates")
-)
 
 repos = []
 skips = []
@@ -268,9 +262,6 @@ for i in range(offset, end):
                 logging.error(formatting)
 
     topics = call_rate_limit_aware(repo.get_topics)
-
-    if config_readme is not None:
-        config_readme = call_rate_limit_aware(lambda: g.render_markdown(config_readme))
 
     repos.append(
         Repo(
