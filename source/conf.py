@@ -71,13 +71,6 @@ datatables_options = {
 }
 
 # -- Manage redirection of old to new wf pages -------------------------------
-# these are simply static redirects without wildcards
-rendered_wfs = os.listdir("docs/workflows")
-redirects = {}
-for wf in rendered_wfs:
-    if not wf.endswith(".md"):
-        continue
-    wf_items = wf.replace(".md", "").split(" ")
-    redirects[f"?usage={wf_items[0]}%2F{wf_items[1]}"] = (
-        f"docs/workflows/{wf_items[0]} {wf_items[1]}"
-    )
+html_js_files = [
+    "redirect.js",
+]
