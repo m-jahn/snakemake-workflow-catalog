@@ -52,7 +52,7 @@ usage:
     report: true # whether creation of reports using 'snakemake --report report.zip' is supported
 ```
 
-Once included in the standardized usage area you can link directly to the workflow page using the URL `https://snakemake.github.io/snakemake-workflow-catalog/docs/workflows/<owner> <repo>`. Do not forget to replace the `<owner>` and `<repo>` tags at the end of the URL.
+Once included in the standardized usage area you can link directly to the workflow page using the URL `https://snakemake.github.io/snakemake-workflow-catalog/docs/workflows/<owner>/<repo>`. Do not forget to replace the `<owner>` and `<repo>` tags at the end of the URL.
 
 ### Release handling
 

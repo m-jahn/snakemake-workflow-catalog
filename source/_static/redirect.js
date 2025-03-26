@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   if (usage) {
     // Dynamically construct the target URL
-    const targetUrl = `docs/workflows/${usage.replace("/", " ")}.html`;
+    const targetUrl = `docs/workflows/${usage}.html`;
 
     // Redirect to the dynamically constructed URL
     window.location.href = targetUrl;
