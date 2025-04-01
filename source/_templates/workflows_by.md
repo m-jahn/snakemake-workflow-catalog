@@ -4,7 +4,7 @@
 
 {% for repo in input -%}
 
-:::{grid-item-card} [{{ repo["name"] }}](<workflows/{{ repo["md"] }}>)
+:::{grid-item-card} [{{ repo["name"] }}](<workflows/{{ repo["full_name"] }}>)
 
 {{ repo["user"] }}
 
@@ -40,6 +40,6 @@
 :hidden:
 
 {% for repo in input -%}
-workflows/{{ repo["user"] }} {{ repo["name"] }}
+workflows/{{ repo["full_name"] }}
 {% endfor %}
 ```

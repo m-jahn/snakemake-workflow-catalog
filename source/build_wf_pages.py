@@ -60,7 +60,6 @@ def build_wf_pages():
         repo = repos[current_repo]
         wf_data = {}
         wf_data["full_name"] = current_repo
-        md_filename = f"{current_repo.replace('/', ' ')}.md"
         # prepare title, description, reporting, qc stats, etc.
         wf_data["description"] = repo["description"]
         wf_data["topics"] = repo["topics"]
@@ -75,8 +74,10 @@ def build_wf_pages():
         wf_data["config_from_readme"] = check_readme(repo["config_readme"])
         # render and export
         md_rendered = template.render(wf=wf_data)
-        output_dir = Path("docs/workflows")
-        output_path = output_dir / md_filename
+        output_dir = Path(f"docs/workflows/{current_repo.split('/')[0]}")
+        if not output_dir.exists():
+            output_dir.mkdir(parents=True, exist_ok=True)
+        output_path = output_dir / f"{current_repo.split('/')[1]}.md"
         with open(output_path, "w", encoding="utf-8") as f:
             f.write(md_rendered)
 

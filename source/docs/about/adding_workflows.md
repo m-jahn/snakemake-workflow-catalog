@@ -29,8 +29,8 @@ usage:
     flags: # put your flags here
   software-stack-deployment:
     conda: true # whether pipeline works with '--sdm conda'
-    singularity: true # whether pipeline works with '--sdm singularity/apptainer'
-    singularity+conda: true # whether pipeline works with '--sdm conda singularity/apptainer'
+    apptainer: true # whether pipeline works with '--sdm apptainer/singularity'
+    apptainer+conda: true # whether pipeline works with '--sdm conda apptainer/singularity'
     report: true # whether creation of reports using 'snakemake --report report.zip' is supported
 ```
 
@@ -42,7 +42,7 @@ Definition of mandatory flags can happen through a list of strings (`['--a', '--
 The content of the `.snakemake-workflow-catalog.yml` file is subject to change. Flags might change in the near future, but current versions will always stay compatible with the catalog. 
 :::
 
-Once included in the standardized usage area you can link directly to the usage instructions for your repository via the URL `https://snakemake.github.io/snakemake-workflow-catalog?usage=<owner>/<repo>`. Do not forget to replace the `<owner>` and `<repo>` tags at the end of the URL.
+Once included in the standardized usage area you can link directly to the workflow page using the URL `https://snakemake.github.io/snakemake-workflow-catalog/docs/workflows/<owner>/<repo>`. Do not forget to replace the `<owner>` and `<repo>` tags at the end of the URL.
 
 ### Release handling
 

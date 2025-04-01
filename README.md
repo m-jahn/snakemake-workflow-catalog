@@ -40,19 +40,19 @@ In order to additionally appear in the "standardized usage" area, repositories a
 
 Typical content of the `.snakemake-workflow-catalog.yml` file:
 
-```bash
+```yaml
 usage:
-  mandatory-flags: # optional definition of additional flags
-    desc: # describe your flags here in a few sentences (they will be inserted below the example commands)
+  mandatory-flags:
+    desc: # describe your flags here in a few sentences
     flags: # put your flags here
-  software-stack-deployment: # definition of software deployment method (at least one of conda, singularity, or singularity+conda)
-    conda: true # whether pipeline works with --use-conda
-    singularity: true # whether pipeline works with --use-singularity
-    singularity+conda: true # whether pipeline works with --use-singularity --use-conda
-    report: true # add this to confirm that the workflow allows to use 'snakemake --report report.zip' to generate a report containing all results and explanations
+  software-stack-deployment:
+    conda: true # whether pipeline works with '--sdm conda'
+    apptainer: true # whether pipeline works with '--sdm apptainer/singularity'
+    apptainer+conda: true # whether pipeline works with '--sdm conda apptainer/singularity'
+    report: true # whether creation of reports using 'snakemake --report report.zip' is supported
 ```
 
-Once included in the standardized usage area you can link directly to the usage instructions for your repository via the URL `https://snakemake.github.io/snakemake-workflow-catalog?usage=<owner>/<repo>`.
+Once included in the standardized usage area you can link directly to the workflow page using the URL `https://snakemake.github.io/snakemake-workflow-catalog/docs/workflows/<owner>/<repo>`. Do not forget to replace the `<owner>` and `<repo>` tags at the end of the URL.
 
 ### Release handling
 

@@ -77,7 +77,6 @@ def build_wf_tables():
         repos = {}
         for repo in json.loads(f.read()):
             repo = {k: repo[k] for k in selected_items if k in repo}
-            repo["md"] = repo["full_name"].replace("/", " ")
             repo["user"] = repo["full_name"].split("/")[0]
             repo["name"] = repo["full_name"].split("/")[1]
             last_update = datetime.fromtimestamp(repo["updated_at"])
