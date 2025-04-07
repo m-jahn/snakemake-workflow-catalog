@@ -1,5 +1,25 @@
 [
   {
+    "full_name": "RIVM-bioinformatics/apollo-variant-typing",
+    "updated_at": 1743409023.0
+  },
+  {
+    "full_name": "DownClim/.github",
+    "updated_at": 1743392494.0
+  },
+  {
+    "full_name": "Quinexus/DNA-Seq-Pipelines",
+    "updated_at": 1743390572.0
+  },
+  {
+    "full_name": "rhysnewell/aviary",
+    "updated_at": 1743879471.0
+  },
+  {
+    "full_name": "Aurametrix/Alg",
+    "updated_at": 1743382150.0
+  },
+  {
     "full_name": "yw4291/Quantas2.0",
     "updated_at": 1743602753.0
   },
@@ -170,10 +190,6 @@
   {
     "full_name": "SvetlanaUP/Microbiome-conferences-c",
     "updated_at": 1743416407.0
-  },
-  {
-    "full_name": "RIVM-bioinformatics/apollo-variant-typing",
-    "updated_at": 1743409023.0
   },
   {
     "full_name": "reslp/dockerfiles",
@@ -632,10 +648,6 @@
     "updated_at": 1742864071.0
   },
   {
-    "full_name": "rhysnewell/aviary",
-    "updated_at": 1742988038.0
-  },
-  {
     "full_name": "kashyapchhatbar/phdthesis",
     "updated_at": 1742862288.0
   },
@@ -806,18 +818,6 @@
   {
     "full_name": "singularityhub/singularity-catalog",
     "updated_at": 1743398781.0
-  },
-  {
-    "full_name": "DownClim/.github",
-    "updated_at": 1743392494.0
-  },
-  {
-    "full_name": "Quinexus/DNA-Seq-Pipelines",
-    "updated_at": 1743390572.0
-  },
-  {
-    "full_name": "Aurametrix/Alg",
-    "updated_at": 1743382150.0
   },
   {
     "full_name": "songlab-cal/gpn",
