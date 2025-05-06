@@ -61,7 +61,69 @@ If your workflow provides Github releases, the catalog will always just scrape t
 ## Contributing
 
 Contributions to the Snakemake Workflow Catalog are welcome!
-Ideas can be discussed on the [catalog's Issues page](https://github.com/snakemake/snakemake-workflow-catalog/issues) first, and contributions made through Github Pull Requests.
+Ideas can be discussed on the [catalog's Issues page](https://github.com/snakemake/snakemake-workflow-catalog/issues) first, and contributions made through Github Pull Requests, see the [next section](#working-with-a-local-copy) for details.
+
+## Working with a local copy
+
+In order to make contributions, you can set up a local copy of the catalog and test your changes.
+
+First, fork the repository on Github:
+
+1. Go to the [Snakemake Workflow Catalog repository](https://github.com/snakemake/snakemake-workflow-catalog) on Github.
+2. Click on the "Fork" button in the top right corner ([Github documentation: Forking a repository](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo)).
+
+Then, clone the forked repository:
+
+1. Open a terminal on your local machine.
+2. Run `git clone https://github.com/{your-username}/snakemake-workflow-catalog.git` to clone the repository ([Github documentation: Cloning a repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)).
+
+Make your changes to the catalog:
+
+1. Create a conda/mamba environment in order to work with the catalog locally.
+
+```bash
+cd <path-to>/snakemake-workflow-catalog
+conda env create -n snakemake-workflow-catalog -f environment.yml
+conda activate snakemake-workflow-catalog
+```
+
+2. Set required environmental variables. The variable `TEST_REPO` is used fetch only data from a single workflow.
+   **Note:** Building the entire catalog from scratch will take several hours due to searching and testing thousands of Github repos.
+
+```bash
+export GITHUB_TOKEN="<your-github-token>"
+export OFFSET=0
+export LATEST_COMMIT=1000
+export TEST_REPO="snakemake-workflows/rna-seq-star-deseq2"
+```
+
+3. Build the catalog data sources using the test repository.
+
+```bash
+python scripts/generate-catalog.py
+python scripts/cleanup-catalog.py
+```
+
+4. Build the catalog web page using sphinx autobuild (live reload).
+
+```bash
+sphinx-autobuild source/ build/
+```
+
+... or using the make file (static build).
+
+```bash
+make html
+```
+
+5. Run `git add .` to stage your changes.
+6. Run `git commit -m "fix: your commit message"` to commit your changes.
+7. Run `git push` to push your changes to your fork on Github.
+
+Finally, create a pull request:
+
+1. Go to your fork on Github.
+2. Follow the instructions on the [Github documentation: Creating a pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request).
 
 ## Using workflows from the catalog
 
@@ -78,3 +140,5 @@ For more detailed instructions, please refer to the documentation within each wo
 
 The Snakemake Workflow Catalog is open-source and available under the MIT License.
 For more information and to explore the available workflows, visit https://snakemake.github.io/snakemake-workflow-catalog/.
+
+Note: All workflows collected and presented on the Catalog are licensed under their own terms!

@@ -1,3 +1,8 @@
+---
+notoc: true
+description: "all other workflows"
+---
+
 # All other workflows
 
 <!-- NOTE: the raw strings for commas are required to ensure correct line breaks-->
@@ -5,7 +10,7 @@
 ```{csv-table} All other workflows deviating from 'standardized usage'
 :header: Workflow,Description,Topics,Reporting,Stars,Watchers
 :class: sphinx-datatable
-:width: 135%
+:width: 100%
 :widths: auto
 
 {% for repo in input -%}
