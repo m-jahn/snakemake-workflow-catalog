@@ -1,5 +1,157 @@
 [
   {
+    "full_name": "InfOmics/PWM-SVM-benchmark",
+    "updated_at": 1748420499.0
+  },
+  {
+    "full_name": "EPERLab/OSeMOSYS-LAC",
+    "updated_at": 1748400214.0
+  },
+  {
+    "full_name": "EPERLab/OSeMOSYS-LAC",
+    "updated_at": 1748400214.0
+  },
+  {
+    "full_name": "giliapatterson/CKMRnn",
+    "updated_at": 1748460462.0
+  },
+  {
+    "full_name": "agentic-workflow-library/awlkit",
+    "updated_at": 1748381624.0
+  },
+  {
+    "full_name": "JGI-Eukaryotes/gpn_grass",
+    "updated_at": 1748379723.0
+  },
+  {
+    "full_name": "Global-Groundwater-Model/Global_Groundwater_Withdrawal_Model",
+    "updated_at": 1748375858.0
+  },
+  {
+    "full_name": "Rocklin-Lab/hdxrate_pipeline",
+    "updated_at": 1748373338.0
+  },
+  {
+    "full_name": "conanyangqun/snakemake-checkpoint-benchmark",
+    "updated_at": 1748364674.0
+  },
+  {
+    "full_name": "Global-Groundwater-Model/Global_Groundwater_Recharge_Model",
+    "updated_at": 1748364182.0
+  },
+  {
+    "full_name": "rngoodman/tutorials",
+    "updated_at": 1748355929.0
+  },
+  {
+    "full_name": "CCBR/actions",
+    "updated_at": 1748352257.0
+  },
+  {
+    "full_name": "FBi-ANSES/BacWORK",
+    "updated_at": 1748350550.0
+  },
+  {
+    "full_name": "Mfkessler/CoExPlore",
+    "updated_at": 1748350179.0
+  },
+  {
+    "full_name": "Mfkessler/CoExPlore",
+    "updated_at": 1748350179.0
+  },
+  {
+    "full_name": "LucvZon/illumina-metagenomic-analysis-manual",
+    "updated_at": 1748348381.0
+  },
+  {
+    "full_name": "liaoherui/AccuSNV",
+    "updated_at": 1748348049.0
+  },
+  {
+    "full_name": "seafloor/daxos",
+    "updated_at": 1748346303.0
+  },
+  {
+    "full_name": "LucvZon/nanopore-amplicon-analysis-manual",
+    "updated_at": 1748345297.0
+  },
+  {
+    "full_name": "KosinskiLab/AlphaPulldown",
+    "updated_at": 1748343495.0
+  },
+  {
+    "full_name": "hodcroftlab/enterovirus_a71",
+    "updated_at": 1748424448.0
+  },
+  {
+    "full_name": "rekren/rekren",
+    "updated_at": 1748330173.0
+  },
+  {
+    "full_name": "hodcroftlab/coxsackievirus_a16",
+    "updated_at": 1748329944.0
+  },
+  {
+    "full_name": "mrueda/cbicall",
+    "updated_at": 1748329822.0
+  },
+  {
+    "full_name": "Cosmos9526/16s_microbiome_Docker",
+    "updated_at": 1748328277.0
+  },
+  {
+    "full_name": "zx0223winner/HSDSnake",
+    "updated_at": 1748672777.0
+  },
+  {
+    "full_name": "saminab/Nutrientflux_Project",
+    "updated_at": 1748307888.0
+  },
+  {
+    "full_name": "Vimlendu27/super-linter",
+    "updated_at": 1748297085.0
+  },
+  {
+    "full_name": "filiperomero2/ViralUnity",
+    "updated_at": 1748290829.0
+  },
+  {
+    "full_name": "afids/autoafids",
+    "updated_at": 1748272500.0
+  },
+  {
+    "full_name": "ligiamateiu/rna_lexogen",
+    "updated_at": 1748265120.0
+  },
+  {
+    "full_name": "hodcroftlab/coxsackievirus_a6",
+    "updated_at": 1748263839.0
+  },
+  {
+    "full_name": "MrHedmad/kerblam",
+    "updated_at": 1748263306.0
+  },
+  {
+    "full_name": "triopsydopsyda/BI_Project_AID-APOBEC-mediated_mutagenesis",
+    "updated_at": 1748263047.0
+  },
+  {
+    "full_name": "Wubeizhongxinghua/BSSeqDuplexConsensusReads",
+    "updated_at": 1748262335.0
+  },
+  {
+    "full_name": "CIML-bioinformatic/FlashPipe",
+    "updated_at": 1748260980.0
+  },
+  {
+    "full_name": "bigbiolab/AI4CADD",
+    "updated_at": 1748252087.0
+  },
+  {
+    "full_name": "colomemaria/benchmark_scrnaseq_cnv_callers",
+    "updated_at": 1748251359.0
+  },
+  {
     "full_name": "LBGC-CFB/MAGIC",
     "updated_at": 1748607501.0
   },
@@ -30,10 +182,6 @@
   {
     "full_name": "mmorri/portfolio",
     "updated_at": 1748573479.0
-  },
-  {
-    "full_name": "blab/esm-selection",
-    "updated_at": 1748560022.0
   },
   {
     "full_name": "blab/esm-selection",
@@ -428,44 +576,8 @@
     "updated_at": 1748607346.0
   },
   {
-    "full_name": "afids/autoafids",
-    "updated_at": 1748272500.0
-  },
-  {
     "full_name": "pik-piam/Remind-PyPSA-coupling",
     "updated_at": 1748266266.0
-  },
-  {
-    "full_name": "ligiamateiu/rna_lexogen",
-    "updated_at": 1748265120.0
-  },
-  {
-    "full_name": "hodcroftlab/coxsackievirus_a6",
-    "updated_at": 1748263839.0
-  },
-  {
-    "full_name": "MrHedmad/kerblam",
-    "updated_at": 1748263306.0
-  },
-  {
-    "full_name": "triopsydopsyda/BI_Project_AID-APOBEC-mediated_mutagenesis",
-    "updated_at": 1748263047.0
-  },
-  {
-    "full_name": "Wubeizhongxinghua/BSSeqDuplexConsensusReads",
-    "updated_at": 1748262335.0
-  },
-  {
-    "full_name": "CIML-bioinformatic/FlashPipe",
-    "updated_at": 1748260980.0
-  },
-  {
-    "full_name": "bigbiolab/AI4CADD",
-    "updated_at": 1748252087.0
-  },
-  {
-    "full_name": "colomemaria/benchmark_scrnaseq_cnv_callers",
-    "updated_at": 1748251359.0
   },
   {
     "full_name": "liviurotiul/VeGAS",
@@ -604,10 +716,6 @@
     "updated_at": 1748187318.0
   },
   {
-    "full_name": "EPERLab/OSeMOSYS-LAC",
-    "updated_at": 1748019463.0
-  },
-  {
     "full_name": "Nirmal2310/ANOMALY",
     "updated_at": 1747216249.0
   },
@@ -704,10 +812,6 @@
     "updated_at": 1747087987.0
   },
   {
-    "full_name": "Vimlendu27/super-linter",
-    "updated_at": 1747087477.0
-  },
-  {
     "full_name": "NichKu/TransMethylCFDx",
     "updated_at": 1747074839.0
   },
@@ -780,10 +884,6 @@
     "updated_at": 1747326118.0
   },
   {
-    "full_name": "CCBR/actions",
-    "updated_at": 1747323199.0
-  },
-  {
     "full_name": "MijaToka/HGCalCommissioning",
     "updated_at": 1747322046.0
   },
@@ -836,10 +936,6 @@
     "updated_at": 1747250545.0
   },
   {
-    "full_name": "KosinskiLab/AlphaPulldown",
-    "updated_at": 1747296558.0
-  },
-  {
     "full_name": "BradleyH017/atlassing",
     "updated_at": 1747239544.0
   },
@@ -868,24 +964,12 @@
     "updated_at": 1747613479.0
   },
   {
-    "full_name": "filiperomero2/ViralUnity",
-    "updated_at": 1747598530.0
-  },
-  {
-    "full_name": "mrueda/cbicall",
-    "updated_at": 1747589345.0
-  },
-  {
     "full_name": "broadinstitute/CODECsuite",
     "updated_at": 1747588003.0
   },
   {
     "full_name": "Daphne-myue/CommonPipeline",
     "updated_at": 1747538219.0
-  },
-  {
-    "full_name": "zx0223winner/HSDSnake",
-    "updated_at": 1747518962.0
   },
   {
     "full_name": "GeneRegulationi3S/APAtizer",
@@ -1020,10 +1104,6 @@
     "updated_at": 1746733325.0
   },
   {
-    "full_name": "saminab/Nutrientflux_Project",
-    "updated_at": 1746722699.0
-  },
-  {
     "full_name": "mdka00001/RNA-seq-pipeline",
     "updated_at": 1746719481.0
   },
@@ -1082,10 +1162,6 @@
   {
     "full_name": "genepi/umi-pipeline-nf",
     "updated_at": 1746632995.0
-  },
-  {
-    "full_name": "hodcroftlab/enterovirus_a71",
-    "updated_at": 1746626701.0
   },
   {
     "full_name": "Meta-CAMP/CAMP_Module_Template",
@@ -1252,10 +1328,6 @@
     "updated_at": 1746396284.0
   },
   {
-    "full_name": "rekren/rekren",
-    "updated_at": 1746390032.0
-  },
-  {
     "full_name": "areyoulockedin/langs",
     "updated_at": 1746373031.0
   },
@@ -1416,20 +1488,12 @@
     "updated_at": 1746018171.0
   },
   {
-    "full_name": "LucvZon/nanopore-amplicon-analysis-manual",
-    "updated_at": 1746015163.0
-  },
-  {
     "full_name": "GE2POP/GeCKO",
     "updated_at": 1746014839.0
   },
   {
     "full_name": "bartosovic-lab/nanoscope",
     "updated_at": 1746013873.0
-  },
-  {
-    "full_name": "LucvZon/illumina-metagenomic-analysis-manual",
-    "updated_at": 1746012618.0
   },
   {
     "full_name": "molinerisLab/RStudio-snkmaker",
@@ -1716,10 +1780,6 @@
     "updated_at": 1745755389.0
   },
   {
-    "full_name": "liaoherui/AccuSNV",
-    "updated_at": 1745721396.0
-  },
-  {
     "full_name": "davidrobertcrawford/Computational_Biology",
     "updated_at": 1745694030.0
   },
@@ -1790,10 +1850,6 @@
   {
     "full_name": "mikerobeson/snake-ref-amplicon-pipe",
     "updated_at": 1744736459.0
-  },
-  {
-    "full_name": "rngoodman/tutorials",
-    "updated_at": 1744728510.0
   },
   {
     "full_name": "percyfal/nbis-project-admin",
@@ -2200,10 +2256,6 @@
     "updated_at": 1743587213.0
   },
   {
-    "full_name": "Mfkessler/CoExPlore",
-    "updated_at": 1743583807.0
-  },
-  {
     "full_name": "broadinstitute/Methyl-CODEC",
     "updated_at": 1743569069.0
   },
@@ -2468,10 +2520,6 @@
     "updated_at": 1743084250.0
   },
   {
-    "full_name": "Global-Groundwater-Model/Global_Groundwater_Recharge_Model",
-    "updated_at": 1743084154.0
-  },
-  {
     "full_name": "MetExplore/dexom-python",
     "updated_at": 1743079799.0
   },
@@ -2586,10 +2634,6 @@
   {
     "full_name": "minha12/diffusion-model-evaluations",
     "updated_at": 1742829257.0
-  },
-  {
-    "full_name": "InfOmics/PWM-SVM-benchmark",
-    "updated_at": 1742815767.0
   },
   {
     "full_name": "jafshare/GithubTrending",
@@ -2810,10 +2854,6 @@
   {
     "full_name": "chumawinnie/Spade-Hybrid-Assembler",
     "updated_at": 1741993036.0
-  },
-  {
-    "full_name": "hodcroftlab/coxsackievirus_a16",
-    "updated_at": 1741971186.0
   },
   {
     "full_name": "Louis-XIV-bis/variant_calling_scere",
