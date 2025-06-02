@@ -2528,10 +2528,6 @@
     "updated_at": 1742981849.0
   },
   {
-    "full_name": "nberk-lbl/gpn_grass",
-    "updated_at": 1742970550.0
-  },
-  {
     "full_name": "Dinesh-Adhithya-H/MethylationPrediction",
     "updated_at": 1742946786.0
   },
@@ -3438,10 +3434,6 @@
   {
     "full_name": "rikenbit/AHPubMedDbs",
     "updated_at": 1738826374.0
-  },
-  {
-    "full_name": "MALL-Machine-Learning-in-Live-Sciences/nucleoTide",
-    "updated_at": 1738782179.0
   },
   {
     "full_name": "reanahub/reana-workflow-engine-snakemake",
