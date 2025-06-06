@@ -1,7 +1,7 @@
 # snakemake-workflow-catalog
 
 [![Generate catalog](https://github.com/snakemake/snakemake-workflow-catalog/actions/workflows/generate.yml/badge.svg)](https://github.com/snakemake/snakemake-workflow-catalog/actions/workflows/generate.yml)
-[![pages-build-deployment](https://github.com/snakemake/snakemake-workflow-catalog/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/snakemake/snakemake-workflow-catalog/actions/workflows/pages/pages-build-deployment)
+[![Deploy catalog](https://github.com/snakemake/snakemake-workflow-catalog/actions/workflows/deploy.yml/badge.svg)](https://github.com/snakemake/snakemake-workflow-catalog/actions/workflows/deploy.yml)
 ![GitHub last commit](https://img.shields.io/github/last-commit/snakemake/snakemake-workflow-catalog?label=latest%20update)
 ![GitHub Issues or Pull Requests](https://img.shields.io/github/issues/snakemake/snakemake-workflow-catalog)
 
