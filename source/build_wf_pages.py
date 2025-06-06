@@ -26,13 +26,13 @@ def check_deployment(depl):
     return result
 
 
-def check_qc_output(qc_item):
+def check_qc_output(qc_item, max_lines = 200):
     if qc_item is None:
         return None
     else:
         result = qc_item.split("\n")
-        if len(result) > 20:
-            return "\n".join(result[:20]) + "\n\n... (truncated)"
+        if len(result) > max_lines:
+            return "\n".join(result[:max_lines]) + "\n\n... (truncated)"
         else:
             return "\n".join(result)
 
