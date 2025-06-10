@@ -7,6 +7,7 @@ docs/workflows_by_stars
 docs/workflows_by_watchers
 docs/workflows_by_update
 docs/workflows_by_tests
+docs/workflows_by_topic
 docs/all_standardized_workflows
 docs/all_other_workflows
 ```

@@ -54,7 +54,7 @@ def render_markdown(
     repos = {k: v for k, v in repos.items() if v["standardized"] == wf_standard}
     repos = sorted(repos.values(), key=lambda x: x[sort_by], reverse=reverse)
     if top_n:
-        repos = repos[:top_n]
+        repos = repos[:top_n] if len(repos) > top_n else repos
     repos = [clean_repo(repo) for repo in repos]
     repos[0]["metric"] = metric
     template = jinja_env.get_template(template)
@@ -91,6 +91,10 @@ def build_wf_tables():
             repo["last_update"] = datetime.strftime(last_update, "%Y-%m-%d")
             repos[repo["full_name"]] = repo
 
+    # import topics
+    with open("../topics.json", "r") as f:
+        topics = json.loads(f.read())
+
     # import jinja templates
     env = Environment(
         loader=FileSystemLoader("_templates"),
@@ -121,6 +125,31 @@ def build_wf_tables():
             metric=metric,
             top_n=15,
         )
+
+    # match repos to topics
+    for topic in topics.keys():
+        repos_select = {k: v for k, v in repos.items() if v["standardized"]}
+        repos_select = {
+            k: v
+            for k, v in repos_select.items()
+            for t in v["topics"]
+            if t in topics[topic]
+        }
+        topics[topic] = {
+            "name": topic,
+            "number": len(repos_select),
+            "repos": list(repos_select.keys()),
+            "keywords": topics[topic],
+        }
+
+    # render topics landing page
+    template = env.get_template("workflows_by_topic.md")
+    output = f"docs/workflows_by_topic.md"
+    topics_list = sorted(topics.values(), key=lambda x: x["number"], reverse=True)
+    md_rendered = template.render(input=[t for t in topics_list])
+    output_path = Path(output)
+    with open(output_path, "w", encoding="utf-8") as f:
+        f.write(md_rendered)
 
     # closing statement
     print("Tables and cards rendered successfully.")
