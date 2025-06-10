@@ -32,15 +32,14 @@
 {% if wf["linting"] == None -%}
     {bdg-success}`linting: passed`
 {%- else -%}
-    {bdg-danger}`linting: failed`
+    {bdg-ref-danger}`linting: failed <linting-{{ wf["full_name"]|slugify }}>`
 {%- endif -%},
 **Formatting:**
 {% if wf["formatting"] == None -%}
     {bdg-success}`formatting: passed`
 {%- else -%}
-    {bdg-danger}`formatting: failed`
+    {bdg-ref-danger}`formatting: failed <formatting-{{ wf["full_name"]|slugify }}>`
 {%- endif %}
-
 
 ## Deployment
 
@@ -137,6 +136,7 @@ _The following section is imported from the workflow's `config/README.md`_.
 
 ## Linting and formatting
 
+(linting-{{ wf["full_name"]|slugify }})=
 ### Linting results
 
 {% if wf["linting"] == None %}
@@ -144,11 +144,19 @@ _The following section is imported from the workflow's `config/README.md`_.
 All tests passed!
 ```
 {%- else -%}
-```
+
+<div style="height: 400px; overflow-y: scroll; padding: 0px;">
+
+```{code-block}
+:linenos:
+
 {{ wf["linting"] }}
 ```
+</div >
+
 {% endif %}
 
+(formatting-{{ wf["full_name"]|slugify }})=
 ### Formatting results
 
 {% if wf["formatting"] == None %}
@@ -156,7 +164,14 @@ All tests passed!
 All tests passed!
 ```
 {%- else -%}
-```
+
+<div style="height: 400px; overflow-y: scroll; padding: 0px;">
+
+```{code-block}
+:linenos:
+
 {{ wf["formatting"] }}
 ```
+</div >
+
 {% endif %}

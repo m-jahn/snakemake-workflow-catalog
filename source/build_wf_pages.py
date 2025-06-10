@@ -1,4 +1,5 @@
 import json
+import re
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 from datetime import datetime
 from pathlib import Path
@@ -26,15 +27,22 @@ def check_deployment(depl):
     return result
 
 
-def check_qc_output(qc_item):
+def check_qc_output(qc_item, max_lines=200):
     if qc_item is None:
         return None
     else:
         result = qc_item.split("\n")
-        if len(result) > 20:
-            return "\n".join(result[:20]) + "\n\n... (truncated)"
+        if len(result) > max_lines:
+            return "\n".join(result[:max_lines]) + "\n\n... (truncated)"
         else:
             return "\n".join(result)
+
+
+def slugify(value):
+    value = value.lower()
+    value = re.sub(r"[^a-z0-9]+", "-", value)
+    value = value.strip("-")
+    return value
 
 
 def build_wf_pages():
@@ -45,6 +53,7 @@ def build_wf_pages():
         trim_blocks=True,
         lstrip_blocks=True,
     )
+    env.filters["slugify"] = slugify
     template = env.get_template("workflow_page.md")
 
     # import workflow data

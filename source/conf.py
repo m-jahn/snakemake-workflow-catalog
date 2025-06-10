@@ -58,6 +58,7 @@ pygments_style = "sphinx"
 html_permalinks_icon = Icons.permalinks_icon
 suppress_warnings = ["myst.xref_missing", "myst.header"]
 myst_enable_extensions = ["colon_fence", "attrs_block"]
+myst_heading_anchors = 2
 html_sidebars = {
     "**": ["globaltoc.html"],
 }
