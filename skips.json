@@ -1,5 +1,25 @@
 [
   {
+    "full_name": "molinerisLab/dap",
+    "updated_at": 1748937212.0
+  },
+  {
+    "full_name": "WangLabPKU/MAPIT-seq",
+    "updated_at": 1748945182.0
+  },
+  {
+    "full_name": "Yixf-Education/killer_tools",
+    "updated_at": 1748930205.0
+  },
+  {
+    "full_name": "jpeyemi/SimPhyNISnakemake",
+    "updated_at": 1748914678.0
+  },
+  {
+    "full_name": "Daylily-Informatics/daylily-ephemeral-cluster",
+    "updated_at": 1748912972.0
+  },
+  {
     "full_name": "benson1231/NGS",
     "updated_at": 1749109906.0
   },
@@ -46,10 +66,6 @@
   {
     "full_name": "cademirch/snakemake-logger-plugin-snkmt",
     "updated_at": 1749134434.0
-  },
-  {
-    "full_name": "NBISweden/nf-core-aMeta",
-    "updated_at": 1749042031.0
   },
   {
     "full_name": "NBISweden/nf-core-aMeta",
@@ -646,26 +662,6 @@
   {
     "full_name": "Jasmeer57/Terminology_Extraction_Pipeline",
     "updated_at": 1748852479.0
-  },
-  {
-    "full_name": "molinerisLab/dap",
-    "updated_at": 1748937212.0
-  },
-  {
-    "full_name": "WangLabPKU/MAPIT-seq",
-    "updated_at": 1748945182.0
-  },
-  {
-    "full_name": "Yixf-Education/killer_tools",
-    "updated_at": 1748930205.0
-  },
-  {
-    "full_name": "jpeyemi/SimPhyNISnakemake",
-    "updated_at": 1748914678.0
-  },
-  {
-    "full_name": "Daylily-Informatics/daylily-ephemeral-cluster",
-    "updated_at": 1748912972.0
   },
   {
     "full_name": "SamuelBrudner/cookiecutter_python_project",
