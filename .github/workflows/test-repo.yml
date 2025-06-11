@@ -52,9 +52,11 @@ jobs:
           body: |
             Testing catalog parsing for repository https://github.com/${{ fromJSON(steps.info.outputs.result).test_repo }}.
             Results: https://github.com/snakemake/snakemake-workflow-catalog/actions/workflows/test-repo.yml
-      - uses: actions/checkout@v1
+      - uses: actions/checkout@v4
       - name: deployment
         uses: mamba-org/setup-micromamba@v2
+        with:
+          environment-file: environment.yml
       - name: generate-catalog
         shell: bash -l {0}
         env:
