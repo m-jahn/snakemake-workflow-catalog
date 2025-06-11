@@ -4,12 +4,15 @@ import subprocess as sp
 import os
 from pathlib import Path
 import time
-import urllib
+from typing import Dict
+import urllib.request
 import tarfile
 import re
 from datetime import timedelta, datetime
 import git
+from git import Repo as GitRepo
 import yaml
+from github.PaginatedList import PaginatedList
 
 from common import (
     store_data,
@@ -48,11 +51,12 @@ class Repo:
         linting,
         formatting,
         config_readme,
-        settings: dict,
+        settings: Dict | None,
         release,
         updated_at,
         topics,
     ):
+        self.full_name: str
         for attr in [
             "full_name",
             "description",
@@ -85,12 +89,22 @@ class Repo:
             )
             self.config_readme = config_readme
             self.standardized = True
+            self.non_standardized_reason = None
         else:
             self.mandatory_flags = []
             self.software_stack_deployment = None
             self.config_readme = None
             self.report = False
             self.standardized = False
+            self.non_standardized_reason = []
+            if settings is None:
+                self.non_standardized_reason.append(
+                    "no .snakemake-workflow-catalog.yml found in repo root"
+                )
+            if config_readme is None:
+                self.non_standardized_reason.append(
+                    "no config/README.md found in repo root"
+                )
 
         # increase this if fields above change
         self.data_format = Repo.data_format
@@ -101,11 +115,12 @@ if test_repo is not None:
     total_count = 1
     offset = 0
 else:
-    latest_commit = int(os.environ.get("LATEST_COMMIT"))
+    assert "LATEST_COMMIT" in os.environ
+    latest_commit = int(os.environ["LATEST_COMMIT"])
 
     date_threshold = datetime.today() - timedelta(latest_commit)
     date_threshold = datetime.strftime(date_threshold, "%Y-%m-%d")
-    repo_search = g.search_repositories(
+    repo_search: PaginatedList = g.search_repositories(
         f"snakemake workflow in:readme archived:false pushed:>={date_threshold}",
         sort="updated",
     )
@@ -176,16 +191,17 @@ for i in range(offset, end):
             # download release tag (use hardcoded url, because repo.tarball_url can sometimes
             # cause ambiguity errors if a branch is called the same as the release).
             tarball_url = f"https://github.com/{repo.full_name}/tarball/refs/tags/{release.tag_name}"
-            get_tarfile = lambda: tarfile.open(
-                fileobj=urllib.request.urlopen(tarball_url), mode="r|gz"
-            )
+            def get_tarfile():
+                return tarfile.open(
+                    fileobj=urllib.request.urlopen(tarball_url), mode="r|gz"
+                )
             root_dir = get_tarfile().getmembers()[0].name
             get_tarfile().extractall(path=tmp, filter="tar")
             tmp /= root_dir
         else:
             # no latest release, clone main branch
             try:
-                gitrepo = git.Repo.clone_from(repo.clone_url, str(tmp), depth=1)
+                gitrepo = GitRepo.clone_from(repo.clone_url, str(tmp), depth=1)
             except git.GitCommandError:
                 log_skip("error cloning repository")
                 register_skip(repo)
@@ -220,6 +236,13 @@ for i in range(offset, end):
             with open(settings_file) as settings_file:
                 try:
                     settings = yaml.load(settings_file, yaml.SafeLoader)
+                    if not isinstance(settings, dict):
+                        logging.info(
+                            "No standardized usage possible because "
+                            ".snakemake-workflow-catalog.yml does not contain a YAML "
+                            "mapping."
+                        )
+                        settings = None
                 except yaml.scanner.ScannerError as e:
                     logging.info(
                         "No standardized usage possible because "
@@ -266,17 +289,23 @@ for i in range(offset, end):
 
     topics = call_rate_limit_aware(repo.get_topics)
 
+    repo_obj = Repo(
+        repo,
+        linting,
+        formatting,
+        config_readme,
+        settings,
+        release,
+        updated_at,
+        topics,
+    )
+    logging.info(
+        f"Repo {repo_obj.full_name} processed successfully as "
+        f"{'standardized' if repo_obj.standardized else 'non-standardized'} workflow. "
+    )
+
     repos.append(
-        Repo(
-            repo,
-            linting,
-            formatting,
-            config_readme,
-            settings,
-            release,
-            updated_at,
-            topics,
-        ).__dict__
+        repo_obj.__dict__
     )
 
 if test_repo is None:
