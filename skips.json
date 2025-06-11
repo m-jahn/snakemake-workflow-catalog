@@ -1,5 +1,29 @@
 [
   {
+    "full_name": "MPUSP/mpusp-snakemake-wrappers",
+    "updated_at": 1749631699.0
+  },
+  {
+    "full_name": "Juassis/Juassis",
+    "updated_at": 1749027833.0
+  },
+  {
+    "full_name": "Waschina/gapsnake",
+    "updated_at": 1749027784.0
+  },
+  {
+    "full_name": "lwang-genomics/NGS_pipeline_sn",
+    "updated_at": 1749016245.0
+  },
+  {
+    "full_name": "cheeseman-lab/brieflow-analysis",
+    "updated_at": 1749013883.0
+  },
+  {
+    "full_name": "panyq357/chipseq-pipeline",
+    "updated_at": 1749002630.0
+  },
+  {
     "full_name": "NIGMS/NIGMS-Sandbox",
     "updated_at": 1749219448.0
   },
@@ -76,14 +100,6 @@
     "updated_at": 1749140320.0
   },
   {
-    "full_name": "galafis/genomic-data-analysis-pipeline",
-    "updated_at": 1749141093.0
-  },
-  {
-    "full_name": "bioforensics/lusSTR",
-    "updated_at": 1749140320.0
-  },
-  {
     "full_name": "ml-tooling/best-of-ml-python",
     "updated_at": 1749646177.0
   },
@@ -142,10 +158,6 @@
   {
     "full_name": "ASAP-CRN/pmdbs-sc-rnaseq-wf",
     "updated_at": 1749071681.0
-  },
-  {
-    "full_name": "koppikarp/chen_analysis_redo",
-    "updated_at": 1749069201.0
   },
   {
     "full_name": "koppikarp/chen_analysis_redo",
@@ -622,30 +634,6 @@
   {
     "full_name": "ranwez/GeneModelTransfer",
     "updated_at": 1749052546.0
-  },
-  {
-    "full_name": "MPUSP/mpusp-snakemake-wrappers",
-    "updated_at": 1749027966.0
-  },
-  {
-    "full_name": "Juassis/Juassis",
-    "updated_at": 1749027833.0
-  },
-  {
-    "full_name": "Waschina/gapsnake",
-    "updated_at": 1749027784.0
-  },
-  {
-    "full_name": "lwang-genomics/NGS_pipeline_sn",
-    "updated_at": 1749016245.0
-  },
-  {
-    "full_name": "cheeseman-lab/brieflow-analysis",
-    "updated_at": 1749013883.0
-  },
-  {
-    "full_name": "panyq357/chipseq-pipeline",
-    "updated_at": 1749002630.0
   },
   {
     "full_name": "Arcadia-Science/2024-organismal-selection",
