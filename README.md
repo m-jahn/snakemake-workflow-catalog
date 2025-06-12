@@ -63,6 +63,9 @@ If your workflow provides Github releases, the catalog will always just scrape t
 Contributions to the Snakemake Workflow Catalog are welcome!
 Ideas can be discussed on the [catalog's Issues page](https://github.com/snakemake/snakemake-workflow-catalog/issues) first, and contributions made through Github Pull Requests, see the [next section](#working-with-a-local-copy) for details.
 
+[Topics](https://snakemake.github.io/snakemake-workflow-catalog/docs/workflows_by_topic.html) are currently predefined in the `topics.json` file.
+Users are encouraged to add topics for their workflows by a pull request to this file, if they feel a topic is not represented.
+
 ## Working with a local copy
 
 In order to make contributions, you can set up a local copy of the catalog and test your changes.
