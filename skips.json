@@ -1,15 +1,19 @@
 [
   {
+    "full_name": "mdozmorov/scRNA-seq_notes",
+    "updated_at": 1749804334.0
+  },
+  {
+    "full_name": "hingelman/BifrostOmics",
+    "updated_at": 1749427208.0
+  },
+  {
     "full_name": "maxfieldk/TE-Seq",
     "updated_at": 1749658438.0
   },
   {
     "full_name": "simon-lemm/simon-lemm",
     "updated_at": 1749662710.0
-  },
-  {
-    "full_name": "redwanfarooq/single_cell_multi",
-    "updated_at": 1749649770.0
   },
   {
     "full_name": "redwanfarooq/single_cell_multi",
@@ -157,10 +161,6 @@
   },
   {
     "full_name": "MetExplore/dexom-python",
-    "updated_at": 1749549835.0
-  },
-  {
-    "full_name": "MaximilianSti/dexom_python",
     "updated_at": 1749549835.0
   },
   {
@@ -802,14 +802,6 @@
   {
     "full_name": "ParkerLab/muscle_nfr_nucQTL",
     "updated_at": 1749439146.0
-  },
-  {
-    "full_name": "mdozmorov/scRNA-seq_notes",
-    "updated_at": 1749527859.0
-  },
-  {
-    "full_name": "hingelman/BifrostOmics",
-    "updated_at": 1749427208.0
   },
   {
     "full_name": "ggit12/benchmark_llms",
