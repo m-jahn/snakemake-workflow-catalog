@@ -1,8 +1,12 @@
 
+(contributions)=
 ## Contributions
 
 Contributions to the Snakemake Workflow Catalog are welcome!
 Ideas can be discussed on the [catalog's Issues page](https://github.com/snakemake/snakemake-workflow-catalog/issues) first, and contributions made through Github Pull Requests.
+
+[Topics](<workflows_by_topic>) are currently predefined in the `topics.json` file.
+Users are encouraged to add topics for their workflows by a pull request to this file, if they feel a topic is not represented.
 
 ### License
 
