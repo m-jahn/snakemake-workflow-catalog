@@ -1,5 +1,29 @@
 [
   {
+    "full_name": "snakemake/snakemake-interface-executor-plugins",
+    "updated_at": 1750671460.0
+  },
+  {
+    "full_name": "Mfkessler/CoExPlore",
+    "updated_at": 1750667704.0
+  },
+  {
+    "full_name": "linsalrob/atavide_lite",
+    "updated_at": 1750667125.0
+  },
+  {
+    "full_name": "nextflow-io/awesome-nextflow",
+    "updated_at": 1750664523.0
+  },
+  {
+    "full_name": "gbouras13/plassembler",
+    "updated_at": 1751058301.0
+  },
+  {
+    "full_name": "groponp/groponp",
+    "updated_at": 1750638001.0
+  },
+  {
     "full_name": "s2hui/denali_screen_analysis",
     "updated_at": 1750858110.0
   },
@@ -88,14 +112,6 @@
     "updated_at": 1750779669.0
   },
   {
-    "full_name": "vlmathieu/p-cut",
-    "updated_at": 1750839896.0
-  },
-  {
-    "full_name": "samhorsfield96/WTBcluster",
-    "updated_at": 1750779669.0
-  },
-  {
     "full_name": "lmarkey/lowbiomass_microbiome",
     "updated_at": 1750778584.0
   },
@@ -158,10 +174,6 @@
   {
     "full_name": "ianrgraham/monk",
     "updated_at": 1750722937.0
-  },
-  {
-    "full_name": "Arcadia-Science/2025-zoogle-experiments",
-    "updated_at": 1750717119.0
   },
   {
     "full_name": "Arcadia-Science/2025-zoogle-experiments",
@@ -932,14 +944,6 @@
     "updated_at": 1750244494.0
   },
   {
-    "full_name": "snakemake/snakemake-interface-executor-plugins",
-    "updated_at": 1750244485.0
-  },
-  {
-    "full_name": "groponp/groponp",
-    "updated_at": 1750638001.0
-  },
-  {
     "full_name": "OJBright/OJBright",
     "updated_at": 1750626724.0
   },
@@ -984,10 +988,6 @@
     "updated_at": 1750518436.0
   },
   {
-    "full_name": "linsalrob/atavide_lite",
-    "updated_at": 1750476250.0
-  },
-  {
     "full_name": "PejLab/Pantry",
     "updated_at": 1750464399.0
   },
@@ -1030,10 +1030,6 @@
   {
     "full_name": "wdecoster/chr15q14",
     "updated_at": 1750426194.0
-  },
-  {
-    "full_name": "nextflow-io/awesome-nextflow",
-    "updated_at": 1750090700.0
   },
   {
     "full_name": "singularityhub/singularity-catalog",
@@ -1144,10 +1140,6 @@
     "updated_at": 1749789772.0
   },
   {
-    "full_name": "gbouras13/plassembler",
-    "updated_at": 1750398400.0
-  },
-  {
     "full_name": "mdozmorov/scRNA-seq_notes",
     "updated_at": 1749804334.0
   },
@@ -1246,10 +1238,6 @@
   {
     "full_name": "omnibenchmark/run_omnibenchmark",
     "updated_at": 1749560320.0
-  },
-  {
-    "full_name": "Mfkessler/CoExPlore",
-    "updated_at": 1749558671.0
   },
   {
     "full_name": "MetExplore/dexom-python",
