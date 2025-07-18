@@ -22,8 +22,6 @@
 
 ## Overview
 
-**Topics:** {% for t in wf["topics"] %} {bdg-secondary}`{{ t }}` {% endfor %}
-
 
 **Latest release:** {bdg-primary}`{{ wf["release"] }}`, **Last update:** {bdg-primary}`{{ wf["last_update"] }}`
 
@@ -40,6 +38,23 @@
 {%- else -%}
     {bdg-ref-danger}`formatting: failed <formatting-{{ wf["full_name"]|slugify }}>`
 {%- endif %}
+
+
+{% if wf["topics"] -%}
+    **Topics:**
+    {% for t in wf["topics"] %}
+        {bdg-secondary}`{{ t }}`
+    {% endfor %}
+{%- endif %}
+
+
+{% if wf["wrappers"] -%}
+    **Wrappers:**
+    {% for w in wf["wrappers"] %}
+        {bdg-link-secondary}`{{ wf["wrappers"][w]["wrapper_name"] }} <{{ wf["wrappers"][w]["wrapper_url"] }}>`
+    {% endfor %}
+{%- endif %}
+
 
 ## Deployment
 
