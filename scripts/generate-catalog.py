@@ -195,9 +195,9 @@ for i in range(offset, end):
             # cause ambiguity errors if a branch is called the same as the release).
             tarball_url = f"https://github.com/{repo.full_name}/tarball/refs/tags/{release.tag_name}"
 
-            def get_tarfile():
+            def get_tarfile(url=tarball_url):
                 return tarfile.open(
-                    fileobj=urllib.request.urlopen(tarball_url), mode="r|gz"
+                    fileobj=urllib.request.urlopen(url), mode="r|gz"
                 )
 
             root_dir = get_tarfile().getmembers()[0].name
