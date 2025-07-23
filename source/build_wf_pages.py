@@ -72,6 +72,7 @@ def build_wf_pages():
         # prepare title, description, reporting, qc stats, etc.
         wf_data["description"] = repo["description"]
         wf_data["topics"] = repo["topics"]
+        wf_data["wrappers"] = repo.get("wrappers", {})
         wf_data["linting"] = check_qc_output(repo["linting"])
         wf_data["formatting"] = check_qc_output(repo["formatting"])
         wf_data["release"] = repo["latest_release"]

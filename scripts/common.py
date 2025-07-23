@@ -4,6 +4,7 @@ import os
 import json
 import calendar
 import time
+import re
 
 from ratelimit import limits, sleep_and_retry
 from jinja2 import Environment, FileSystemLoader, select_autoescape
@@ -81,3 +82,23 @@ def check_repo_exists(g, full_name):
             return False
 
     return call_rate_limit_aware(inner)
+
+
+def get_wrappers(smkfile):
+    wrappers = {}
+    for match in re.finditer(r"\n\s*wrapper:\s*(.+)\n", smkfile):
+        wrapper_line = match.group(1).strip().replace('"', "")
+        wrp_clean = wrapper_line.split("/")
+        if len(wrp_clean) not in [3, 4]:
+            continue
+        version, *rest = wrp_clean
+        if not re.match(r"v\d+\.\d+\.\d+", version):
+            continue
+        wrapper_name = "/".join(rest)
+        wrapper_url = f"https://snakemake-wrappers.readthedocs.io/en/stable/wrappers/{"/".join(rest)}.html"
+        wrappers[wrapper_name] = {
+            "wrapper_name": wrapper_name,
+            "wrapper_version": version,
+            "wrapper_url": wrapper_url,
+        }
+    return wrappers

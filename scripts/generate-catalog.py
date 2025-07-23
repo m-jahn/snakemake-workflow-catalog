@@ -17,6 +17,7 @@ from github.PaginatedList import PaginatedList
 from common import (
     store_data,
     call_rate_limit_aware,
+    get_wrappers,
     g,
     previous_repos,
     previous_skips,
@@ -55,6 +56,7 @@ class Repo:
         release,
         updated_at,
         topics,
+        wrappers,
     ):
         self.full_name: str
         for attr in [
@@ -66,6 +68,7 @@ class Repo:
             setattr(self, attr, getattr(github_repo, attr))
 
         self.topics = topics
+        self.wrappers = wrappers
         self.updated_at = updated_at.timestamp()
 
         self.linting = linting
@@ -289,6 +292,19 @@ for i in range(offset, end):
             if test_repo is not None:
                 logging.error(formatting)
 
+        # wrappers
+        wrappers = {}
+        for smk in snakefiles:
+            try:
+                with open(smk, "r") as f:
+                    smkfile = f.read()
+            except Exception as e:
+                logging.warning(f"Could not read {smk}: {e}")
+                continue
+            smk_wrappers = get_wrappers(smkfile)
+            if smk_wrappers:
+                wrappers = wrappers | smk_wrappers
+
     topics = call_rate_limit_aware(repo.get_topics)
 
     repo_obj = Repo(
@@ -300,15 +316,14 @@ for i in range(offset, end):
         release,
         updated_at,
         topics,
+        wrappers,
     )
     logging.info(
         f"Repo {repo_obj.full_name} processed successfully as "
         f"{'standardized' if repo_obj.standardized else 'non-standardized'} workflow."
     )
 
-    repos.append(
-        repo_obj.__dict__
-    )
+    repos.append(repo_obj.__dict__)
 
 if test_repo is None:
     # Now add all old repos that haven't been covered by the current search.
