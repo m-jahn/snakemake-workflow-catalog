@@ -637,7 +637,7 @@
   },
   {
     "full_name": "BioinfoMohIL/IsraBact",
-    "updated_at": 1755161165.0
+    "updated_at": 1756711930.0
   },
   {
     "full_name": "BioinformaNicks/Bioinformatics-training-collection",
@@ -1430,6 +1430,10 @@
   {
     "full_name": "FlorianCHA/snakevir",
     "updated_at": 1690371886.0
+  },
+  {
+    "full_name": "FowlerLab/constitch",
+    "updated_at": 1756717287.0
   },
   {
     "full_name": "FowlerLab/starcall",
@@ -6616,6 +6620,10 @@
     "updated_at": 1643477940.0
   },
   {
+    "full_name": "dalofa/P8_metagenome",
+    "updated_at": 1756707325.0
+  },
+  {
     "full_name": "danielecook/Awesome-Bioinformatics",
     "updated_at": 1742747525.0
   },
@@ -8117,7 +8125,7 @@
   },
   {
     "full_name": "hrahmanin/hrahmanin",
-    "updated_at": 1756624768.0
+    "updated_at": 1756710018.0
   },
   {
     "full_name": "hrrsjeong/segmental_duplications_workflow",
@@ -12541,7 +12549,7 @@
   },
   {
     "full_name": "singularityhub/singularity-catalog",
-    "updated_at": 1754890011.0
+    "updated_at": 1756703934.0
   },
   {
     "full_name": "sinramtar/automatic-gl-delineation",
