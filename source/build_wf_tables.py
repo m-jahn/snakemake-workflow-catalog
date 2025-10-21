@@ -56,7 +56,8 @@ def render_markdown(
     if top_n:
         repos = repos[:top_n] if len(repos) > top_n else repos
     repos = [clean_repo(repo) for repo in repos]
-    repos[0]["metric"] = metric
+    if repos:
+        repos[0]["metric"] = metric
     template = jinja_env.get_template(template)
     md_rendered = template.render(input=repos)
     output_path = Path(output)
