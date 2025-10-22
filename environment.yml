@@ -15,7 +15,9 @@ dependencies:
   - sphinxawesome-theme=5.2.0
   - sphinx-design=0.6.1
   - myst-parser=4.0.1
+  - altair=5.5.0
   - pip
   - pip:
     - sphinxcontrib-jquery
     - sphinx-datatables
+    - sphinxext-altair

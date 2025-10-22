@@ -17,10 +17,12 @@ sys.path.insert(0, os.path.abspath("."))
 
 from build_wf_pages import build_wf_pages
 from build_wf_tables import build_wf_tables
+from build_wf_charts import build_wf_charts
 from sphinxawesome_theme.postprocess import Icons
 
 build_wf_pages()
 build_wf_tables()
+build_wf_charts()
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
@@ -30,6 +32,7 @@ extensions = [
     "sphinx_design",
     "sphinxcontrib.jquery",
     "sphinx_datatables",
+    "sphinxext_altair.altairplot"
 ]
 
 templates_path = ["_templates"]

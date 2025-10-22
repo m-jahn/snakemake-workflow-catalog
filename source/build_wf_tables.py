@@ -148,6 +148,8 @@ def build_wf_tables():
     output_path = Path(output)
     with open(output_path, "w", encoding="utf-8") as f:
         f.write(md_rendered)
+    with open("_static/topics_stats.json", "w") as f:
+        f.write(json.dumps(topics))
 
     # closing statement
     print("Tables and cards rendered successfully.")

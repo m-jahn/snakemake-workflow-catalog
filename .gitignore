@@ -71,6 +71,8 @@ instance/
 # Sphinx documentation
 source/docs/workflows/*.md
 source/docs/*.md
+source/_static/*
+*.sh
 
 # PyBuilder
 .pybuilder/
