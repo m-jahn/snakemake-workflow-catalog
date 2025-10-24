@@ -56,7 +56,8 @@ def render_markdown(
     if top_n:
         repos = repos[:top_n] if len(repos) > top_n else repos
     repos = [clean_repo(repo) for repo in repos]
-    repos[0]["metric"] = metric
+    if repos:
+        repos[0]["metric"] = metric
     template = jinja_env.get_template(template)
     md_rendered = template.render(input=repos)
     output_path = Path(output)
@@ -147,6 +148,8 @@ def build_wf_tables():
     output_path = Path(output)
     with open(output_path, "w", encoding="utf-8") as f:
         f.write(md_rendered)
+    with open("_static/topics_stats.json", "w") as f:
+        f.write(json.dumps(topics))
 
     # closing statement
     print("Tables and cards rendered successfully.")

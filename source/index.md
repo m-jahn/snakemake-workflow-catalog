@@ -27,6 +27,8 @@ docs/catalog
     <img src="https://raw.githubusercontent.com/snakemake/snakemake.github.io/refs/heads/master/src/logo_light.svg"  alt="Snakemake workflow catalog" style="width:35%" />
 </figure>
 
+## About
+
 The Snakemake Workflow Catalog aims to provide a regularly updated list of high-quality workflows that can be easily reused and adapted for various data analysis tasks. By leveraging the power of [**Snakemake**](https://snakemake.github.io/), these workflows promote:
 
 ::::{grid} 3
@@ -46,22 +48,46 @@ Snakemake workflows allow easy customization and extension, enabling users to ad
 
 ## Short cuts
 
-::::{grid} 2
-:::{grid-item-card}
-:columns: auto
 ```{button-ref} docs/catalog
 :ref-type: myst
 :color: primary
-Read Introduction - 5 min ⏱️
+:outline:
+Read introduction - 5 min ⏱️
 ```
-:::
-:::{grid-item-card}
-:columns: auto
+
 ```{button-ref} docs/all_standardized_workflows
 :ref-type: myst
 :color: primary
+:outline:
 Explore workflows 🔭
 ```
+
+```{button-link} https://github.com/snakemake/snakemake-workflow-catalog/issues
+:color: primary
+:outline:
+Report issues or ideas on Github 📢
+```
+
+## Workflows in numbers
+
+::::{grid} 2
+:::{grid-item-card}
+<iframe src="_static/chart_standardized.html" width="100%" height="175px"></iframe>
+:::
+:::{grid-item-card}
+<iframe src="_static/chart_age_group.html" width="100%" height="175px"></iframe>
+:::
+:::{grid-item-card}
+<iframe src="_static/chart_stargazers_count.html" width="100%" height="175px"></iframe>
+:::
+:::{grid-item-card}
+<iframe src="_static/chart_subscribers_count.html" width="100%" height="175px"></iframe>
+:::
+:::{grid-item-card}
+<iframe src="_static/chart_health.html" width="100%" height="175px"></iframe>
+:::
+:::{grid-item-card}
+<iframe src="_static/chart_topic.html" width="100%" height="175px"></iframe>
 :::
 ::::
 
