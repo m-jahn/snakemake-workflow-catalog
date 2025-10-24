@@ -353,7 +353,7 @@
   },
   {
     "full_name": "Andyargueasae/chloroscan",
-    "updated_at": 1759814690.0
+    "updated_at": 1761042027.0
   },
   {
     "full_name": "AngCamp/CampbellMurphy2024",
@@ -585,7 +585,7 @@
   },
   {
     "full_name": "BaderLab/GenAnT",
-    "updated_at": 1760300337.0
+    "updated_at": 1761011423.0
   },
   {
     "full_name": "Balazs-Lab/Escapability",
@@ -689,7 +689,7 @@
   },
   {
     "full_name": "BlueBrain/luigi-tools",
-    "updated_at": 1759780067.0
+    "updated_at": 1761031051.0
   },
   {
     "full_name": "BodenmillerGroup/ImcSegmentationPipeline",
@@ -1016,6 +1016,10 @@
     "updated_at": 1726845955.0
   },
   {
+    "full_name": "DIT-HAP/DIT_HAP_pipeline",
+    "updated_at": 1761053320.0
+  },
+  {
     "full_name": "DKFZ-ABI/.github",
     "updated_at": 1758712975.0
   },
@@ -1281,7 +1285,7 @@
   },
   {
     "full_name": "ELELAB/mavisp_data_collection",
-    "updated_at": 1760520758.0
+    "updated_at": 1761061075.0
   },
   {
     "full_name": "ENCCS/software-bootcamp",
@@ -1493,7 +1497,7 @@
   },
   {
     "full_name": "Fadis04/Fadis04",
-    "updated_at": 1758287403.0
+    "updated_at": 1760966999.0
   },
   {
     "full_name": "FarmGTEx/PigGTEx-Pipeline-v0",
@@ -3141,7 +3145,7 @@
   },
   {
     "full_name": "Nike-Inc/koheesio",
-    "updated_at": 1760195701.0
+    "updated_at": 1761218822.0
   },
   {
     "full_name": "NilaBlueshirt/WMS-on-HPC",
@@ -3329,7 +3333,7 @@
   },
   {
     "full_name": "PejLab/Pantry",
-    "updated_at": 1758246999.0
+    "updated_at": 1761153481.0
   },
   {
     "full_name": "PepijnTeuling/2024-25_NVWA_Stage_BIP",
@@ -3817,7 +3821,7 @@
   },
   {
     "full_name": "Sebastien-Raguideau/Metahood",
-    "updated_at": 1753021235.0
+    "updated_at": 1760961556.0
   },
   {
     "full_name": "Sebastien-Raguideau/Tuto_hpc",
@@ -4057,7 +4061,7 @@
   },
   {
     "full_name": "SvetlanaUP/Microbiome-conferences-c",
-    "updated_at": 1760598955.0
+    "updated_at": 1760951804.0
   },
   {
     "full_name": "SwathiNadendla/MultiPrime",
@@ -4401,7 +4405,7 @@
   },
   {
     "full_name": "Vimlendu27/super-linter",
-    "updated_at": 1760391285.0
+    "updated_at": 1760996050.0
   },
   {
     "full_name": "Vincent-Talen/Dataprocessing-Snakemake-Assignments",
@@ -4625,7 +4629,7 @@
   },
   {
     "full_name": "Yixf-Education/killer_tools",
-    "updated_at": 1760925094.0
+    "updated_at": 1761026835.0
   },
   {
     "full_name": "YomnaGohar/T.-gondii_filter_assemble",
@@ -4710,6 +4714,10 @@
   {
     "full_name": "ZonghaoLi777/githubTrending",
     "updated_at": 1695629550.0
+  },
+  {
+    "full_name": "ZoyavanMeel/Master-Thesis-Project",
+    "updated_at": 1761067224.0
   },
   {
     "full_name": "Zubair11122/IDEA-LUAD",
@@ -5089,11 +5097,11 @@
   },
   {
     "full_name": "ale94mleon/BindFlow",
-    "updated_at": 1760935991.0
+    "updated_at": 1761223698.0
   },
   {
     "full_name": "alefisico/barista",
-    "updated_at": 1760123435.0
+    "updated_at": 1760989684.0
   },
   {
     "full_name": "alefisico/coffea4bees",
@@ -5429,7 +5437,7 @@
   },
   {
     "full_name": "arpanauts/biomapper",
-    "updated_at": 1759363004.0
+    "updated_at": 1760984636.0
   },
   {
     "full_name": "arpitsingh19/best_ml",
@@ -5585,7 +5593,7 @@
   },
   {
     "full_name": "awadiop94/Introgression-species-definiton",
-    "updated_at": 1760642114.0
+    "updated_at": 1761066488.0
   },
   {
     "full_name": "aws-samples/aws-genomics-workflows",
@@ -6225,7 +6233,7 @@
   },
   {
     "full_name": "cademirch/snkmt",
-    "updated_at": 1760806652.0
+    "updated_at": 1761280893.0
   },
   {
     "full_name": "cademirch/snparcher-cli",
@@ -6520,6 +6528,10 @@
     "updated_at": 1655180174.0
   },
   {
+    "full_name": "charleshefer/smk_fasta_deduplication",
+    "updated_at": 1761007132.0
+  },
+  {
     "full_name": "charlesreid1arcadia/snake-scratch",
     "updated_at": 1734117206.0
   },
@@ -6793,7 +6805,7 @@
   },
   {
     "full_name": "conchoecia/chep",
-    "updated_at": 1760896258.0
+    "updated_at": 1760983949.0
   },
   {
     "full_name": "conchoecia/genome_assembly_pipelines",
@@ -8529,7 +8541,7 @@
   },
   {
     "full_name": "hasibaasma/hasibaasma",
-    "updated_at": 1758625770.0
+    "updated_at": 1761026387.0
   },
   {
     "full_name": "haydeeartaza/RareCNVsAnalysis",
@@ -8665,7 +8677,7 @@
   },
   {
     "full_name": "hougesen/mdsf",
-    "updated_at": 1760909830.0
+    "updated_at": 1761047702.0
   },
   {
     "full_name": "hpc-workshops/carpentrycon-sprint",
@@ -9369,7 +9381,7 @@
   },
   {
     "full_name": "josephdong1000/PyEEG",
-    "updated_at": 1760743053.0
+    "updated_at": 1761014596.0
   },
   {
     "full_name": "josm18/josm18",
@@ -9521,7 +9533,7 @@
   },
   {
     "full_name": "k-hench/elephant_seals",
-    "updated_at": 1721914336.0
+    "updated_at": 1761042917.0
   },
   {
     "full_name": "k-hench/spp1158_rep_coding",
@@ -10220,6 +10232,10 @@
     "updated_at": 1722095142.0
   },
   {
+    "full_name": "logsdon-lab/Snakemake-DiMeLo-seq-Viz",
+    "updated_at": 1760991596.0
+  },
+  {
     "full_name": "logsdon-lab/Snakemake-NucFlag",
     "updated_at": 1758593786.0
   },
@@ -10566,6 +10582,10 @@
   {
     "full_name": "maurermaggie/Transcriptome_Wide_Splicing_Analysis",
     "updated_at": 1761255539.0
+  },
+  {
+    "full_name": "mauritsunkel/NGSnake",
+    "updated_at": 1760971053.0
   },
   {
     "full_name": "maxfieldk/TE-Seq",
@@ -10977,11 +10997,11 @@
   },
   {
     "full_name": "mkaba-gxd/special-case",
-    "updated_at": 1760409904.0
+    "updated_at": 1761020214.0
   },
   {
     "full_name": "mkaba-gxd/verification-process",
-    "updated_at": 1753945190.0
+    "updated_at": 1761021077.0
   },
   {
     "full_name": "mlichak394/intro_to_snparcher_on_della",
@@ -11373,7 +11393,7 @@
   },
   {
     "full_name": "neuroinformatics-unit/photon-mosaic",
-    "updated_at": 1760537490.0
+    "updated_at": 1761054304.0
   },
   {
     "full_name": "next-crs4/mustapy",
@@ -11393,7 +11413,7 @@
   },
   {
     "full_name": "nextstrain/forecasts-ncov",
-    "updated_at": 1760135144.0
+    "updated_at": 1760990217.0
   },
   {
     "full_name": "nextstrain/ncov-ingest",
@@ -11590,6 +11610,10 @@
   {
     "full_name": "oajetunmobi/oajetunmobi",
     "updated_at": 1747326118.0
+  },
+  {
+    "full_name": "obegik/obegik",
+    "updated_at": 1761036810.0
   },
   {
     "full_name": "ocaisa/hpc-workflows-de",
@@ -12161,7 +12185,7 @@
   },
   {
     "full_name": "pydna-group/pydna",
-    "updated_at": 1759849687.0
+    "updated_at": 1761150385.0
   },
   {
     "full_name": "pypsa-meets-africa/pypsa-africa-archived",
@@ -12169,7 +12193,7 @@
   },
   {
     "full_name": "pypsa-meets-earth/documentation",
-    "updated_at": 1760912536.0
+    "updated_at": 1761187050.0
   },
   {
     "full_name": "pypsa-meets-earth/pypsa-africa-hackathon",
@@ -12200,6 +12224,10 @@
     "updated_at": 1733281740.0
   },
   {
+    "full_name": "qmorvan/Getting-Started-PyPSA-Eur",
+    "updated_at": 1760949774.0
+  },
+  {
     "full_name": "qpmnguyen/infant_metabolome_microbiome",
     "updated_at": 1648884989.0
   },
@@ -12225,7 +12253,7 @@
   },
   {
     "full_name": "r0xsh/my-awesome-stars",
-    "updated_at": 1760840947.0
+    "updated_at": 1761013172.0
   },
   {
     "full_name": "r3xth0r/scientific-project-template",
@@ -12337,7 +12365,7 @@
   },
   {
     "full_name": "rbakker/snakemake-jobmonitor",
-    "updated_at": 1760855803.0
+    "updated_at": 1760951262.0
   },
   {
     "full_name": "rbartelme/anvio-singularity",
@@ -12777,7 +12805,7 @@
   },
   {
     "full_name": "saezlab/greta",
-    "updated_at": 1760901460.0
+    "updated_at": 1761045377.0
   },
   {
     "full_name": "saforem2/awesome-stars",
@@ -13329,11 +13357,11 @@
   },
   {
     "full_name": "sindhu-freelance-bioinformatician/sindhu-freelance-bioinformatician",
-    "updated_at": 1760709454.0
+    "updated_at": 1761068341.0
   },
   {
     "full_name": "singularityhub/singularity-catalog",
-    "updated_at": 1759123095.0
+    "updated_at": 1760937520.0
   },
   {
     "full_name": "sinramtar/automatic-gl-delineation",
@@ -13537,7 +13565,7 @@
   },
   {
     "full_name": "socameron/lcwgs-lupine",
-    "updated_at": 1760562271.0
+    "updated_at": 1761000527.0
   },
   {
     "full_name": "sohaamir/neuro_resources",
@@ -13905,7 +13933,7 @@
   },
   {
     "full_name": "taui11/schwammerlRohr",
-    "updated_at": 1760909257.0
+    "updated_at": 1761042171.0
   },
   {
     "full_name": "taushifkhan/PhIPSeq_analysis",
@@ -14501,7 +14529,7 @@
   },
   {
     "full_name": "vivaxgen/ngs-pipeline",
-    "updated_at": 1759550450.0
+    "updated_at": 1761016517.0
   },
   {
     "full_name": "vivekbhr/scRIApipe",
@@ -15033,7 +15061,7 @@
   },
   {
     "full_name": "zincware/ZnTrack",
-    "updated_at": 1755012563.0
+    "updated_at": 1761234568.0
   },
   {
     "full_name": "zjnolen/polyommatini-temporal-genomics",
@@ -15089,7 +15117,7 @@
   },
   {
     "full_name": "zx0223winner/HSDSnake",
-    "updated_at": 1760722168.0
+    "updated_at": 1761194988.0
   },
   {
     "full_name": "zx0223winner/MCScanX_Assistant",
