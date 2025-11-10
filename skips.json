@@ -1560,14 +1560,6 @@
     "updated_at": 1690371886.0
   },
   {
-    "full_name": "FortressAI/FoTChemistry",
-    "updated_at": 1760536138.0
-  },
-  {
-    "full_name": "FortressAI/FoTProteinFolding",
-    "updated_at": 1759666613.0
-  },
-  {
     "full_name": "FowlerLab/constitch",
     "updated_at": 1762487350.0
   },
@@ -2590,10 +2582,6 @@
   {
     "full_name": "LockenLiu/Fi-Cell",
     "updated_at": 1762672763.0
-  },
-  {
-    "full_name": "Louis-Barolle/vivalaTE",
-    "updated_at": 1756392833.0
   },
   {
     "full_name": "Louis-MG/META-DIFF",
