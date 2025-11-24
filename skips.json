@@ -4324,10 +4324,6 @@
     "updated_at": 1740399850.0
   },
   {
-    "full_name": "TGAC/GSTF_snakemake",
-    "updated_at": 1660652542.0
-  },
-  {
     "full_name": "TGenNorth/NASP",
     "updated_at": 1666313473.0
   },
@@ -4414,10 +4410,6 @@
   {
     "full_name": "Temmy-bioinformatics/mitogenome-extraction-workflow",
     "updated_at": 1758121447.0
-  },
-  {
-    "full_name": "Temmy-bioinformatics/sexfindr-snakemake",
-    "updated_at": 1757501456.0
   },
   {
     "full_name": "TerpmikaelAAU/AAU_Snake_T2T_Assembly_Pipeline",
@@ -4770,10 +4762,6 @@
   {
     "full_name": "Wildapfel/Wildapfel",
     "updated_at": 1763044851.0
-  },
-  {
-    "full_name": "Wildapfel/portfolio",
-    "updated_at": 1762700449.0
   },
   {
     "full_name": "Winshipe/Deep-learning-on-sequences-PIB",
