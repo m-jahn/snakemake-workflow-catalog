@@ -1741,7 +1741,7 @@
   },
   {
     "full_name": "GE2POP/GeCKO",
-    "updated_at": 1764585216.0
+    "updated_at": 1765204201.0
   },
   {
     "full_name": "GE2POP/GeCKO_UseCase",
@@ -1869,7 +1869,7 @@
   },
   {
     "full_name": "GerardNasser/GerardNasser",
-    "updated_at": 1758202875.0
+    "updated_at": 1765214578.0
   },
   {
     "full_name": "GerardoCendejas/AGaVE",
@@ -3493,7 +3493,7 @@
   },
   {
     "full_name": "Nike-Inc/koheesio",
-    "updated_at": 1764427501.0
+    "updated_at": 1765203885.0
   },
   {
     "full_name": "NiklasDreyer/Barnacle-Mitochondrial-Genome-Evolution",
@@ -3926,6 +3926,10 @@
   {
     "full_name": "RamiliaV/napi2b_stgnn_project",
     "updated_at": 1759488163.0
+  },
+  {
+    "full_name": "Randimuqi/Muqi-and-Chenyu-Course-Project",
+    "updated_at": 1765173406.0
   },
   {
     "full_name": "RaniCodes/Clinical-Bioinformatics-Journey-2025-27",
@@ -4513,7 +4517,7 @@
   },
   {
     "full_name": "SouthGreenPlatform/PanExplorer_workflow",
-    "updated_at": 1763187959.0
+    "updated_at": 1765207007.0
   },
   {
     "full_name": "SouthGreenPlatform/SynFlow",
@@ -4685,7 +4689,7 @@
   },
   {
     "full_name": "TerpmikaelAAU/T2T_fungal_genome_pipeline",
-    "updated_at": 1763468587.0
+    "updated_at": 1765191959.0
   },
   {
     "full_name": "TharunH718/Next-Generation-Sequencing-Based-Pipeline-for-Rapid-Pathogen-Detection-and-Classification",
@@ -5820,6 +5824,10 @@
     "updated_at": 1698704928.0
   },
   {
+    "full_name": "almagyabin/IS-477-Group-Project",
+    "updated_at": 1765172797.0
+  },
+  {
     "full_name": "alonmillet/apoe-ad-age-atlas",
     "updated_at": 1706252979.0
   },
@@ -6221,7 +6229,7 @@
   },
   {
     "full_name": "aurore-bit/SediQuest",
-    "updated_at": 1762242838.0
+    "updated_at": 1765187422.0
   },
   {
     "full_name": "austinv11/GenomicsWorkflows",
@@ -7077,7 +7085,7 @@
   },
   {
     "full_name": "cbg-ethz/cowwid",
-    "updated_at": 1764689238.0
+    "updated_at": 1765204080.0
   },
   {
     "full_name": "cbg-ethz/dce",
@@ -7481,7 +7489,7 @@
   },
   {
     "full_name": "cms-cmu/bbreww",
-    "updated_at": 1764099750.0
+    "updated_at": 1765221656.0
   },
   {
     "full_name": "cms-cmu/coffea4bees",
@@ -7941,7 +7949,7 @@
   },
   {
     "full_name": "dbrg77/ISSAAC-seqV2",
-    "updated_at": 1749628337.0
+    "updated_at": 1765196814.0
   },
   {
     "full_name": "dcolinmorgan/pyNB",
@@ -9501,7 +9509,7 @@
   },
   {
     "full_name": "hodcroftlab/enterovirus_a71",
-    "updated_at": 1762179914.0
+    "updated_at": 1765213348.0
   },
   {
     "full_name": "hodcroftlab/template_nextstrain",
@@ -11285,7 +11293,7 @@
   },
   {
     "full_name": "luxiangze/Spider_Spidroin_Curation",
-    "updated_at": 1764932387.0
+    "updated_at": 1765188883.0
   },
   {
     "full_name": "lwang-genomics/NGS_pipeline_sn",
@@ -11665,7 +11673,7 @@
   },
   {
     "full_name": "mchen237/IS477-Course-Project",
-    "updated_at": 1765169693.0
+    "updated_at": 1765173575.0
   },
   {
     "full_name": "mchowdh200/samplot-stix",
@@ -13845,7 +13853,7 @@
   },
   {
     "full_name": "rockNhu/phagesnake",
-    "updated_at": 1743134362.0
+    "updated_at": 1765185316.0
   },
   {
     "full_name": "rodem-hep/adversarialGeneralization",
@@ -14697,7 +14705,7 @@
   },
   {
     "full_name": "skelviper/CHARM",
-    "updated_at": 1765107167.0
+    "updated_at": 1765209967.0
   },
   {
     "full_name": "skinmicrobiome/2025_Er_MalaySkin",
