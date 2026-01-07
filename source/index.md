@@ -70,7 +70,7 @@ Report issues or ideas on Github 📢
 
 ## Workflows in numbers
 
-::::{grid} 2
+::::{grid} 1
 :::{grid-item-card}
 <iframe src="_static/chart_standardized.html" width="100%" height="175px"></iframe>
 :::

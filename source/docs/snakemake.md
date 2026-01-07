@@ -9,9 +9,9 @@
 
 The Snakemake workflow management system is a tool to create reproducible and scalable data analyses. Workflows are described *via* a human readable, Python based language. They can be seamlessly scaled to server, cluster, grid and cloud environments, without the need to modify the workflow definition.
 
-- To learn more about Snakemake, visit the [Snakemake homepage!](https://snakemake.github.io/)
+- To learn more about Snakemake, visit the [Snakemake homepage](https://snakemake.github.io/).
 
-- To get an impression of the Snakemake architecture, [read the Snakemake paper](https://doi.org/10.12688/f1000research.29032.2)
+- To get an impression of the Snakemake architecture, [read the Snakemake paper](https://doi.org/10.12688/f1000research.29032.2).
 
 - To learn how to use Snakemake workflows, [read the documentation](https://snakemake.readthedocs.io/en/stable/).
 
