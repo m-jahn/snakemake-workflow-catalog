@@ -6,6 +6,13 @@ from datetime import datetime
 
 def bar_chart(df, metric, title, colors):
     custom_scale = alt.Scale(domain=df[metric].values, range=colors)
+    bar_args = dict(
+        cornerRadiusBottomLeft=6,
+        cornerRadiusTopLeft=6,
+        cornerRadiusBottomRight=6,
+        cornerRadiusTopRight=6,
+        height=12,
+    )
     df_background = df.copy()
     df_background["count"] = df_background["count"].max()
     background = (
@@ -21,6 +28,7 @@ def bar_chart(df, metric, title, colors):
                 title="",
                 ticks=False,
                 grid=False,
+                labelPadding=10,
                 labelLimit=100,
                 maxExtent=100,
                 minExtent=100,
@@ -28,11 +36,7 @@ def bar_chart(df, metric, title, colors):
             ),
         )
         .mark_bar(
-            cornerRadiusBottomLeft=7.5,
-            cornerRadiusTopLeft=7.5,
-            cornerRadiusBottomRight=7.5,
-            cornerRadiusTopRight=7.5,
-            height=15,
+            **bar_args,
             color="#77777740",
             opacity=0.5,
         )
@@ -44,13 +48,7 @@ def bar_chart(df, metric, title, colors):
         tooltip=[metric, "count"],
         color=alt.Color(f"{metric}:N", scale=custom_scale, legend=None),
     )
-    chart = chart.mark_bar(
-        cornerRadiusBottomLeft=7.5,
-        cornerRadiusTopLeft=7.5,
-        cornerRadiusBottomRight=7.5,
-        cornerRadiusTopRight=7.5,
-        height=15,
-    ) + chart.mark_text(align="left", dx=2)
+    chart = chart.mark_bar(**bar_args) + chart.mark_text(align="left", dx=2)
     combined = background + chart
     combined.configure_view(stroke=None).properties(
         width="container", height=len(df[metric].values) * 20
@@ -84,7 +82,7 @@ def build_wf_charts():
         }
 
     # define a custom color scale
-    colors = ["#58e3b5", "#10b981", "#059669", "#06865e", "#056d4c", "#0a4d37"]
+    colors = ["#58e3b5", "#10b981", "#059669", "#06865e", "#046f4d", "#00573b"]
 
     # PLOT 1: bar chart for standardized vs other workflows
     df_standard = df["standardized"].value_counts().reset_index()
