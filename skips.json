@@ -321,7 +321,7 @@
   },
   {
     "full_name": "AlvahZorea/bioinfo_pipeline",
-    "updated_at": 1767273055.0
+    "updated_at": 1767620372.0
   },
   {
     "full_name": "Aman18121/Bio-informatic-tools-and-software-",
@@ -752,6 +752,10 @@
     "updated_at": 1760623415.0
   },
   {
+    "full_name": "BioHPC/SOHI",
+    "updated_at": 1767623210.0
+  },
+  {
     "full_name": "BioMeDS/DTI_Processing_Snakemake",
     "updated_at": 1754643450.0
   },
@@ -809,7 +813,7 @@
   },
   {
     "full_name": "BlueBrain/luigi-tools",
-    "updated_at": 1765840208.0
+    "updated_at": 1767640387.0
   },
   {
     "full_name": "BodenmillerGroup/ImcSegmentationPipeline",
@@ -2557,7 +2561,7 @@
   },
   {
     "full_name": "King-Laboratory/rnaseq-myco-notebook",
-    "updated_at": 1641921146.0
+    "updated_at": 1767648203.0
   },
   {
     "full_name": "Kir283/SR_MGE_Benchmarking_Supplementary",
@@ -3001,7 +3005,7 @@
   },
   {
     "full_name": "ManHUU/snakemake-gatk-rna-workflow",
-    "updated_at": 1767549998.0
+    "updated_at": 1767695202.0
   },
   {
     "full_name": "MangiolaLaboratory/HPCell",
@@ -3456,6 +3460,10 @@
     "updated_at": 1757358394.0
   },
   {
+    "full_name": "Naila-Srivastava/Naila-Srivastava",
+    "updated_at": 1767603918.0
+  },
+  {
     "full_name": "Naila-Srivastava/Variant_Calling-WES-RareDisease",
     "updated_at": 1757617758.0
   },
@@ -3517,7 +3525,7 @@
   },
   {
     "full_name": "Nike-Inc/koheesio",
-    "updated_at": 1766453631.0
+    "updated_at": 1767607967.0
   },
   {
     "full_name": "NiklasDreyer/Barnacle-Mitochondrial-Genome-Evolution",
@@ -5296,6 +5304,10 @@
     "updated_at": 1760514971.0
   },
   {
+    "full_name": "ZDYKnight/bulkRNA-tut",
+    "updated_at": 1767634956.0
+  },
+  {
     "full_name": "ZJLEOWANG3/ComparativeMetaGenome",
     "updated_at": 1675899317.0
   },
@@ -5757,7 +5769,7 @@
   },
   {
     "full_name": "alberdilab/drakkar",
-    "updated_at": 1767252834.0
+    "updated_at": 1767626531.0
   },
   {
     "full_name": "alberdilab/genome_skimming",
@@ -5922,6 +5934,10 @@
   {
     "full_name": "alonmillet/apoe-ad-age-atlas",
     "updated_at": 1706252979.0
+  },
+  {
+    "full_name": "alsmith151/ScNado",
+    "updated_at": 1767696907.0
   },
   {
     "full_name": "alsmith151/SeqNado",
@@ -7121,7 +7137,7 @@
   },
   {
     "full_name": "calliope-project/data-module-template",
-    "updated_at": 1764666611.0
+    "updated_at": 1767690453.0
   },
   {
     "full_name": "calliope-project/ec_modules",
@@ -8004,6 +8020,10 @@
     "updated_at": 1665281726.0
   },
   {
+    "full_name": "daklab/Leaflet-analysis",
+    "updated_at": 1767718576.0
+  },
+  {
     "full_name": "dalila-de/breakpointer2",
     "updated_at": 1723480536.0
   },
@@ -8570,6 +8590,10 @@
   {
     "full_name": "eddgeag/repo_cedia",
     "updated_at": 1767959327.0
+  },
+  {
+    "full_name": "edgar688/proj-liver-rna",
+    "updated_at": 1767625914.0
   },
   {
     "full_name": "eduardojmesteves/eduardojmesteves.github.io",
@@ -9332,6 +9356,14 @@
     "updated_at": 1752131750.0
   },
   {
+    "full_name": "gorkem8d/Variant-discovery-using-transcriptomics-data",
+    "updated_at": 1767622829.0
+  },
+  {
+    "full_name": "gorkem8d/gorkem8d",
+    "updated_at": 1767622019.0
+  },
+  {
     "full_name": "gpaasi/ebolavirus-gl-phylogeography",
     "updated_at": 1748703966.0
   },
@@ -9690,6 +9722,10 @@
   {
     "full_name": "hmgu-itg/single-point-analysis-pipeline",
     "updated_at": 1706289812.0
+  },
+  {
+    "full_name": "hmkim/WMAD-METHOD",
+    "updated_at": 1767682582.0
   },
   {
     "full_name": "hms-dbmi/DBMI-Security-Tibanna-Test",
@@ -12301,7 +12337,7 @@
   },
   {
     "full_name": "mkaba-gxd/workaround",
-    "updated_at": 1767580742.0
+    "updated_at": 1767590543.0
   },
   {
     "full_name": "mkkoshkina/wf_denovo_sequencing",
@@ -12318,6 +12354,10 @@
   {
     "full_name": "mmorri/portfolio",
     "updated_at": 1759110131.0
+  },
+  {
+    "full_name": "mnfahmi29/next-gen-seq",
+    "updated_at": 1767931445.0
   },
   {
     "full_name": "mo-morando/fresh_setup",
@@ -13185,7 +13225,7 @@
   },
   {
     "full_name": "open-energy-transition/open-tyndp-recipes",
-    "updated_at": 1767395329.0
+    "updated_at": 1767631024.0
   },
   {
     "full_name": "openbiox/awosome-bioinformatics",
@@ -14181,7 +14221,7 @@
   },
   {
     "full_name": "rohan-ibn-tariq/bioinformatics-portfolio",
-    "updated_at": 1765259600.0
+    "updated_at": 1767624828.0
   },
   {
     "full_name": "rohitshah1/ISProject",
@@ -14386,6 +14426,10 @@
   {
     "full_name": "sakyoney/FleXell---A-flexible-scRNA-seq-pipeline",
     "updated_at": 1759478485.0
+  },
+  {
+    "full_name": "salamhha/nf-scrnaseq",
+    "updated_at": 1767622221.0
   },
   {
     "full_name": "saleha-zip/big-data-bioinformatics",
@@ -15905,7 +15949,7 @@
   },
   {
     "full_name": "trevor-vincent/awesome-high-performance-computing",
-    "updated_at": 1766188652.0
+    "updated_at": 1768114933.0
   },
   {
     "full_name": "trevorb1/snakemake-workshop",
@@ -16885,7 +16929,7 @@
   },
   {
     "full_name": "zoey-rw/SoilMicrobeDB",
-    "updated_at": 1767404238.0
+    "updated_at": 1767816370.0
   },
   {
     "full_name": "zpf0117b/CLMB",
