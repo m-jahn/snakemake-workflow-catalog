@@ -6,28 +6,53 @@ from datetime import datetime
 
 def bar_chart(df, metric, title, colors):
     custom_scale = alt.Scale(domain=df[metric].values, range=colors)
-    chart = alt.Chart(
-        df,
-        title=alt.Title(title, anchor="start", orient="top", offset=10, frame="group"),
-    ).encode(
-        x=alt.X("count:Q", title="Frequency").axis(None),
-        y=alt.Y(f"{metric}:N", title=metric, sort=df[metric].values).axis(
-            title="",
-            ticks=False,
-            grid=False,
-            labelLimit=60,
-            maxExtent=80,
-            minExtent=80,
-            labelAlign="right",
-        ),
+    bar_args = dict(
+        cornerRadiusBottomLeft=6,
+        cornerRadiusTopLeft=6,
+        cornerRadiusBottomRight=6,
+        cornerRadiusTopRight=6,
+        height=12,
+    )
+    df_background = df.copy()
+    df_background["count"] = df_background["count"].max()
+    background = (
+        alt.Chart(
+            df_background,
+            title=alt.Title(
+                title, anchor="start", orient="top", offset=10, frame="group"
+            ),
+        )
+        .encode(
+            x=alt.X("count:Q").axis(None),
+            y=alt.Y(f"{metric}:N", sort=df[metric].values, title=metric).axis(
+                title="",
+                ticks=False,
+                grid=False,
+                labelPadding=10,
+                labelLimit=100,
+                maxExtent=100,
+                minExtent=100,
+                labelAlign="right",
+            ),
+        )
+        .mark_bar(
+            **bar_args,
+            color="#77777740",
+            opacity=0.5,
+        )
+    )
+    chart = alt.Chart(df).encode(
+        x=alt.X("count:Q"),
+        y=alt.Y(f"{metric}:N", sort=df[metric].values),
         text="count",
         tooltip=[metric, "count"],
         color=alt.Color(f"{metric}:N", scale=custom_scale, legend=None),
     )
-    chart = chart.mark_bar() + chart.mark_text(align="left", dx=2)
-    chart.configure_view(stroke=None).properties(width="container", height=120).save(
-        f"_static/chart_{metric}.html", embed_options={"actions": False}
-    )
+    chart = chart.mark_bar(**bar_args) + chart.mark_text(align="left", dx=2)
+    combined = background + chart
+    combined.configure_view(stroke=None).properties(
+        width="container", height=len(df[metric].values) * 20
+    ).save(f"_static/chart_{metric}.html", embed_options={"actions": False})
 
 
 def build_wf_charts():
@@ -47,13 +72,17 @@ def build_wf_charts():
         return {
             "usermeta": {"embedOptions": {"theme": "quartz"}},
             "config": {
-                "title": {"fontSize": 12, "color": "grey"},
+                "title": {"fontSize": 13, "color": "grey"},
+                "axis": {
+                    "labelFontSize": 13,
+                    "titleFontSize": 13,
+                },
                 "background": "transparent",
             },
         }
 
     # define a custom color scale
-    colors = ["#58e3b5", "#10b981", "#059669", "#06865e", "#056d4c", "#0a4d37"]
+    colors = ["#58e3b5", "#10b981", "#059669", "#06865e", "#046f4d", "#00573b"]
 
     # PLOT 1: bar chart for standardized vs other workflows
     df_standard = df["standardized"].value_counts().reset_index()
