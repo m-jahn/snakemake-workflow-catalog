@@ -1129,7 +1129,7 @@
   },
   {
     "full_name": "CompGenomeLab/xr-ds-seq-snakemake",
-    "updated_at": 1753345433.0
+    "updated_at": 1768221801.0
   },
   {
     "full_name": "Condorelli/Snakemake_calibration_process_E_",
@@ -4089,7 +4089,7 @@
   },
   {
     "full_name": "RobotEurekaLab/awesome-robotScientist",
-    "updated_at": 1767000614.0
+    "updated_at": 1768210307.0
   },
   {
     "full_name": "Rocklin-Lab/hdxrate_pipeline",
@@ -5293,7 +5293,7 @@
   },
   {
     "full_name": "Yixf-Education/killer_tools",
-    "updated_at": 1768188557.0
+    "updated_at": 1768255646.0
   },
   {
     "full_name": "YomnaGohar/T.-gondii_filter_assemble",
@@ -5529,7 +5529,7 @@
   },
   {
     "full_name": "actions-marketplace-validations/oxsecurity_megalinter",
-    "updated_at": 1768028915.0
+    "updated_at": 1768217747.0
   },
   {
     "full_name": "actions-marketplace-validations/snakemake_snakedeploy-github-action",
@@ -7801,7 +7801,7 @@
   },
   {
     "full_name": "crazyhottommy/crazyhottommy",
-    "updated_at": 1723903605.0
+    "updated_at": 1768217760.0
   },
   {
     "full_name": "crazyhottommy/getting-started-with-genomics-tools-and-resources",
@@ -11225,7 +11225,7 @@
   },
   {
     "full_name": "lauramilena3/SOIL_VIROME_ECOLOGY",
-    "updated_at": 1768169027.0
+    "updated_at": 1768215932.0
   },
   {
     "full_name": "lauren-mak/CAMP_Module_Template",
@@ -12300,6 +12300,10 @@
     "updated_at": 1765291161.0
   },
   {
+    "full_name": "mim86/emu_ahus_pipe",
+    "updated_at": 1768219948.0
+  },
+  {
     "full_name": "minha12/diffusion-model-evaluations",
     "updated_at": 1751461229.0
   },
@@ -12765,7 +12769,7 @@
   },
   {
     "full_name": "neherlab/nextclade_data_workflows",
-    "updated_at": 1767709521.0
+    "updated_at": 1768221659.0
   },
   {
     "full_name": "neherlab/rsv_epidemiology_2025",
@@ -13325,7 +13329,7 @@
   },
   {
     "full_name": "panos-gbio/cancer_project",
-    "updated_at": 1768185226.0
+    "updated_at": 1768225349.0
   },
   {
     "full_name": "panyq357/bsaseq-pipeline",
@@ -13353,7 +13357,7 @@
   },
   {
     "full_name": "pathoplexus/loculus_deployments",
-    "updated_at": 1767889809.0
+    "updated_at": 1768215647.0
   },
   {
     "full_name": "patnr/PyJoule",
@@ -15616,6 +15620,10 @@
     "updated_at": 1754913368.0
   },
   {
+    "full_name": "taniasasaran/DataToolkitFinalProject",
+    "updated_at": 1768204089.0
+  },
+  {
     "full_name": "tanyaphung/FUMA_Celltype_cmd",
     "updated_at": 1760607036.0
   },
@@ -16377,7 +16385,7 @@
   },
   {
     "full_name": "wdecoster/pathSTR",
-    "updated_at": 1767864369.0
+    "updated_at": 1768219136.0
   },
   {
     "full_name": "weber8thomas/strandscape",
@@ -16784,6 +16792,10 @@
     "updated_at": 1647546194.0
   },
   {
+    "full_name": "zeeshanali/TrainedMonkey",
+    "updated_at": 1768208985.0
+  },
+  {
     "full_name": "zeitlingerlab/G-M_Alcantara_TFIID_2025",
     "updated_at": 1766165370.0
   },
@@ -16913,7 +16925,7 @@
   },
   {
     "full_name": "zlewkarzbenc/klasyfikator",
-    "updated_at": 1767041283.0
+    "updated_at": 1768220325.0
   },
   {
     "full_name": "zm-git-dev/my_binder",
