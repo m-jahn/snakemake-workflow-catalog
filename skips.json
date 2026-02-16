@@ -4208,10 +4208,6 @@
     "updated_at": 1769193878.0
   },
   {
-    "full_name": "RILAB/arg-ne",
-    "updated_at": 1768937400.0
-  },
-  {
     "full_name": "RIVM-bioinformatics/apollo-mapping",
     "updated_at": 1756914469.0
   },
@@ -4382,10 +4378,6 @@
   {
     "full_name": "RiyaS-Verma/VariantCalling-Snakemake",
     "updated_at": 1673656690.0
-  },
-  {
-    "full_name": "RmmlAndReas/ReciprocalBlast",
-    "updated_at": 1769624595.0
   },
   {
     "full_name": "RobersonLab/2021_ssc_rnaseq",
@@ -4586,10 +4578,6 @@
   {
     "full_name": "SammedMandape/snakemake_fastq2variant",
     "updated_at": 1682518591.0
-  },
-  {
-    "full_name": "SamuelBrudner/cookiecutter_python_project",
-    "updated_at": 1748904103.0
   },
   {
     "full_name": "SamuelBrudner/plume_nav_sim",
