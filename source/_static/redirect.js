@@ -1,14 +1,17 @@
 document.addEventListener("DOMContentLoaded", function () {
   const params = new URLSearchParams(window.location.search);
-  const usage = params.get("usage");
+  let workflow = params.get("wf") ?? params.get("usage");
 
-  if (usage) {
+  if (workflow) {
+    // Allow only expected slug characters.
+    if (!/^[A-Za-z0-9_-\/]+$/.test(workflow)) {
+        console.error(`Invalid workflow specification (allowed is [A-Za-z0-9_-\/]+): ${workflow}`);
+        return;
+    }
     // Dynamically construct the target URL
-    const targetUrl = `docs/workflows/${usage}.html`;
+    const targetUrl = `docs/workflows/${workflow}.html`;
 
     // Redirect to the dynamically constructed URL
     window.location.href = targetUrl;
-  } else {
-    console.error("No usage parameter found in the URL.");
   }
 });

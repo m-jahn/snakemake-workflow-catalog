@@ -1,3 +1,4 @@
+{% set wf_share_link = "https://snakemake.github.io/snakemake-workflow-catalog?wf=" + wf["full_name"] %}
 
 # {{ wf["full_name"] }}
 
@@ -25,19 +26,19 @@
 
 **Latest release:** {bdg-primary}`{{ wf["release"] }}`, **Last update:** {bdg-primary}`{{ wf["last_update"] }}`
 
+**Share link:** [{{ wf_share_link }}]({{ wf_share_link }})
 
-**Linting:**
-{% if wf["linting"] == None -%}
-    {bdg-success}`linting: passed`
-{%- else -%}
-    {bdg-ref-danger}`linting: failed <linting-{{ wf["full_name"]|slugify }}>`
-{%- endif -%},
-**Formatting:**
-{% if wf["formatting"] == None -%}
-    {bdg-success}`formatting: passed`
-{%- else -%}
-    {bdg-ref-danger}`formatting: failed <formatting-{{ wf["full_name"]|slugify }}>`
-{%- endif %}
+**Quality control:**
+{% if wf["linting"] is None %}
+        {bdg-success}`linting: passed`
+{% else %}
+        {bdg-ref-danger}`linting: failed <linting-{{ wf["full_name"]|slugify }}>`
+{% endif %}
+{% if wf["formatting"] is None %}
+        {bdg-success}`formatting: passed`
+{% else %}
+        {bdg-ref-danger}`formatting: failed <formatting-{{ wf["full_name"]|slugify }}>`
+{% endif %}
 
 
 {% if wf["topics"] -%}
