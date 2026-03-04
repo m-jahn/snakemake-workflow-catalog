@@ -29,12 +29,12 @@
 **Share link:** [{{ wf_share_link }}]({{ wf_share_link }})
 
 **Quality control:**
-{% if wf["linting"] is None %}
+{% if wf["linting"] is none %}
         {bdg-success}`linting: passed`
 {% else %}
         {bdg-ref-danger}`linting: failed <linting-{{ wf["full_name"]|slugify }}>`
 {% endif %}
-{% if wf["formatting"] is None %}
+{% if wf["formatting"] is none %}
         {bdg-success}`formatting: passed`
 {% else %}
         {bdg-ref-danger}`formatting: failed <formatting-{{ wf["full_name"]|slugify }}>`
