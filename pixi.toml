@@ -29,4 +29,4 @@ test-generate-catalog-single-repo = { cmd = "python scripts/generate-catalog.py"
 test-cleanup-catalog = { cmd = "python scripts/cleanup-catalog.py", env = { OFFSET = "0", N_REPOS = "3" } }
 generate-catalog = { cmd = "python scripts/generate-catalog.py" }
 cleanup-catalog = { cmd = "python scripts/cleanup-catalog.py" }
-render-catalog = "sphinx-build source build"
+render-catalog = "sphinx-build source build/html"

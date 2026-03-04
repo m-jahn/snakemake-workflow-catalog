@@ -61,7 +61,7 @@
 
 ### Step 1: Install Snakemake and Snakedeploy
 
-Snakemake and Snakedeploy are best installed via the [Conda](https://conda.io). It is recommended to install conda via [Miniforge](https://github.com/conda-forge/miniforge). Run
+Snakemake and Snakedeploy are best installed via the [Conda](https://conda.io) package manager. It is recommended to install conda via [Miniforge](https://github.com/conda-forge/miniforge). Run
 
 ```bash
 conda create -c conda-forge -c bioconda -c nodefaults --name snakemake snakemake snakedeploy
