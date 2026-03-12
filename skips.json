@@ -1609,7 +1609,7 @@
   },
   {
     "full_name": "DrPintoThe2nd/SCINKD",
-    "updated_at": 1772993439.0
+    "updated_at": 1773133564.0
   },
   {
     "full_name": "DuronioLab/transgenic_longread_map_snakemake",
@@ -4561,7 +4561,7 @@
   },
   {
     "full_name": "RasmussenLab/pimms",
-    "updated_at": 1773004371.0
+    "updated_at": 1773177797.0
   },
   {
     "full_name": "RasmussenLab/vamb",
@@ -13205,7 +13205,7 @@
   },
   {
     "full_name": "mdozmorov/HiC_tools",
-    "updated_at": 1773023023.0
+    "updated_at": 1773244936.0
   },
   {
     "full_name": "mdozmorov/Microbiome_notes",
@@ -14826,6 +14826,10 @@
   {
     "full_name": "plattlab/An-End-To-End-Computational-Framework-for-Record-seq-Transcriptional-Recording-Data",
     "updated_at": 1772803219.0
+  },
+  {
+    "full_name": "plattlab/Record-seq-Framework",
+    "updated_at": 1773147322.0
   },
   {
     "full_name": "plattlab/Spacer-Acquisition-Modelling",
@@ -18281,7 +18285,7 @@
   },
   {
     "full_name": "zavolanlab/CellType_PolyASite_Atlas",
-    "updated_at": 1772790397.0
+    "updated_at": 1773049700.0
   },
   {
     "full_name": "zavolanlab/bCLIP_Stefanie_Jonas",
