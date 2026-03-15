@@ -175,6 +175,16 @@ _The following section is imported from the workflow's `config/README.md`_.
 
 {{ wf["config_from_readme"] }}
 
+{% if wf["config_from_schema"] %}
+
+## Workflow parameters
+
+_The following table is automatically parsed from the workflow's `config.schema.y(a)ml` file_.
+
+{{ wf["config_from_schema"] }}
+
+{% endif %}
+
 ## Linting and formatting
 
 (linting-{{ wf["full_name"]|slugify }})=

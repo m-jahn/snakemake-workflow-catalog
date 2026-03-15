@@ -10,7 +10,9 @@ from datetime import timedelta, datetime
 import git
 from git import Repo as GitRepo
 import yaml
+from yaml.scanner import ScannerError
 from github.PaginatedList import PaginatedList
+import json
 
 from common import (
     register_skip,
@@ -39,7 +41,7 @@ skips = {}
 
 
 class Repo:
-    data_format = 2
+    data_format = 3
 
     def __init__(
         self,
@@ -53,6 +55,7 @@ class Repo:
         topics,
         wrappers,
         rulegraph,
+        schemas,
     ):
         self.full_name: str
         for attr in [
@@ -86,6 +89,7 @@ class Repo:
                 "software-stack-deployment", {}
             )
             self.config_readme = config_readme
+            self.schemas = schemas
             self.standardized = True
             self.non_standardized_reason = None
             self.rulegraph = rulegraph
@@ -93,6 +97,7 @@ class Repo:
             self.mandatory_flags = []
             self.software_stack_deployment = None
             self.config_readme = None
+            self.schemas = None
             self.report = False
             self.standardized = False
             self.non_standardized_reason = []
@@ -239,7 +244,7 @@ for i in range(offset, end):
                             "mapping."
                         )
                         settings = None
-                except yaml.scanner.ScannerError as e:
+                except ScannerError as e:
                     logging.info(
                         "No standardized usage possible because "
                         "there was an error parsing "
@@ -328,6 +333,23 @@ for i in range(offset, end):
             except sp.CalledProcessError as e:
                 logging.warning(f"Could not generate rulegraph for {repo}: {e}")
 
+        # schema
+        schemas = None
+        for schema_subdir in ["config", "workflow"]:
+            for schema_suffix in ["yml", "yaml"]:
+                path = (
+                    tmp / schema_subdir / "schemas" / f"config.schema.{schema_suffix}"
+                )
+                if path.exists():
+                    try:
+                        with open(path, "r") as f:
+                            schemas = json.dumps(
+                                yaml.safe_load(f), separators=(",", ":")
+                            )
+                    except yaml.YAMLError as e:
+                        logging.warning(f"Could not parse schema {path}: {e}")
+                    break
+
     topics = call_rate_limit_aware(repo.get_topics)
 
     repo_obj = Repo(
@@ -341,6 +363,7 @@ for i in range(offset, end):
         topics,
         wrappers,
         rulegraph,
+        schemas,
     )
     logging.info(
         f"Repo {repo_obj.full_name} processed successfully as "

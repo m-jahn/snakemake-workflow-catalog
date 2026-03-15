@@ -77,6 +77,69 @@ def plot_rulegraph(output: Path, rg_dot: str) -> list[str]:
     return output_files
 
 
+def format_default(value):
+    if value is None:
+        return ""
+    if isinstance(value, bool):
+        return "true" if value else "false"
+    return str(value)
+
+
+def schema_to_markdown(data):
+    rows = []
+    data = json.loads(data)
+
+    def parse_props(props, parent="", required_list=None, nesting=0):
+        required_list = required_list or []
+
+        for name, details in props.items():
+            if not isinstance(details, dict):
+                continue
+
+            spacer = " . " * nesting
+            full_name = f"{spacer}{name}" if parent else f"**{name}**"
+            param_type = details.get("type", "")
+            description = details.get("description", "")
+            required = "yes" if name in required_list else ""
+            default = format_default(details.get("default"))
+
+            rows.append([full_name, param_type, description, required, default])
+
+            if "properties" in details:
+                child_props = details.get("properties", {})
+                child_required = details.get("required", [])
+                parse_props(child_props, full_name, child_required, nesting + 1)
+
+    parse_props(
+        data.get("properties", {}), parent="", required_list=data.get("required", [])
+    )
+
+    headers = ["Parameter", "Type", "Description", "Required", "Default"]
+    rows = [[str(cell) for cell in row] for row in rows]
+    col_widths = [
+        max(len(headers[i]), *(len(row[i]) for row in rows))
+        for i in range(len(headers))
+    ]
+
+    md_lines = []
+    md_lines.append(
+        "| "
+        + " | ".join(headers[i].ljust(col_widths[i]) for i in range(len(headers)))
+        + " |"
+    )
+    md_lines.append(
+        "| " + " | ".join("-" * col_widths[i] for i in range(len(headers))) + " |"
+    )
+    for row in rows:
+        md_lines.append(
+            "| "
+            + " | ".join(row[i].ljust(col_widths[i]) for i in range(len(headers)))
+            + " |"
+        )
+    markdown = "\n".join(md_lines)
+    return markdown
+
+
 def build_wf_pages():
     # import jinja templates
     env = Environment(
@@ -124,6 +187,9 @@ def build_wf_pages():
         wf_data["deployment"] = check_deployment(repo["software_stack_deployment"])
         # add configuration from readme; adjust header level if necessary
         wf_data["config_from_readme"] = check_readme(repo["config_readme"])
+        wf_data["config_from_schema"] = ""
+        if repo.get("schemas"):
+            wf_data["config_from_schema"] = schema_to_markdown(repo.get("schemas"))
         # render and export
         md_rendered = template.render(wf=wf_data)
         output_path = output_dir / f"{current_repo.split('/')[1]}.md"
