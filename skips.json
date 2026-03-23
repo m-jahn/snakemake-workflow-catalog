@@ -953,7 +953,7 @@
   },
   {
     "full_name": "BoringScienceLLC/BoringScience",
-    "updated_at": 1773436727.0
+    "updated_at": 1773858709.0
   },
   {
     "full_name": "BovReg/nf-workshop20",
@@ -2029,7 +2029,7 @@
   },
   {
     "full_name": "GDD-Nantes/FedShop",
-    "updated_at": 1755176901.0
+    "updated_at": 1773768714.0
   },
   {
     "full_name": "GE2POP/GeCKO",
@@ -2441,7 +2441,7 @@
   },
   {
     "full_name": "ICCB-Cologne/spice",
-    "updated_at": 1773264291.0
+    "updated_at": 1773765835.0
   },
   {
     "full_name": "ICESAT-2HackWeek/GroundingLine-Greenland",
@@ -3048,6 +3048,14 @@
     "updated_at": 1645657188.0
   },
   {
+    "full_name": "KureneAmy/SHAPE-MaP-processing-pipeline",
+    "updated_at": 1773802704.0
+  },
+  {
+    "full_name": "KureneAmy/SPRITE-Processing-Pipeline",
+    "updated_at": 1773818808.0
+  },
+  {
     "full_name": "Kwonnalone/homebridge",
     "updated_at": 1770896719.0
   },
@@ -3597,7 +3605,7 @@
   },
   {
     "full_name": "Meta-CAMP/CAMP_Module_Template",
-    "updated_at": 1746625031.0
+    "updated_at": 1773778611.0
   },
   {
     "full_name": "MetzSe/rag_helper",
@@ -3617,7 +3625,7 @@
   },
   {
     "full_name": "MichaelG0501/hpc-relay",
-    "updated_at": 1773420914.0
+    "updated_at": 1773765928.0
   },
   {
     "full_name": "MichaelPar31/IS-477-Course-Project",
@@ -4216,6 +4224,10 @@
     "updated_at": 1638850959.0
   },
   {
+    "full_name": "OpenLAIR/awesome-vibe-researching",
+    "updated_at": 1773994299.0
+  },
+  {
     "full_name": "OpenMS/umetaflow",
     "updated_at": 1770730994.0
   },
@@ -4509,7 +4521,7 @@
   },
   {
     "full_name": "PyPSA/snakemake-storage-plugin-cached-http",
-    "updated_at": 1770636378.0
+    "updated_at": 1773838902.0
   },
   {
     "full_name": "QSQX-HAN/sm-PORE-cupine",
@@ -4857,7 +4869,7 @@
   },
   {
     "full_name": "SEAL-Embedded/sigtekx",
-    "updated_at": 1773215496.0
+    "updated_at": 1773779866.0
   },
   {
     "full_name": "SEUNGYOB/Proximity_HERB-2.0",
@@ -5565,7 +5577,7 @@
   },
   {
     "full_name": "TomaszSuchan/sedaDNA-snakemake",
-    "updated_at": 1761839742.0
+    "updated_at": 1773838641.0
   },
   {
     "full_name": "Tomcxf/FASTdRNA",
@@ -5620,8 +5632,16 @@
     "updated_at": 1756235108.0
   },
   {
+    "full_name": "TriLab-bioinf/TBG_PROJECT_BUILDER",
+    "updated_at": 1773856983.0
+  },
+  {
     "full_name": "TriLab-bioinf/TriLabs_pipelines",
     "updated_at": 1773174513.0
+  },
+  {
+    "full_name": "TsangLabCSEI/Nicaragua_SingleCell",
+    "updated_at": 1773756814.0
   },
   {
     "full_name": "Tuks-ICMM/Pharmacogenetic-Analysis-Pipeline",
@@ -6401,7 +6421,7 @@
   },
   {
     "full_name": "aditispt/omics-core-standard-pipelines",
-    "updated_at": 1772497474.0
+    "updated_at": 1773843298.0
   },
   {
     "full_name": "adjohnston85/Lamia",
@@ -7437,7 +7457,7 @@
   },
   {
     "full_name": "bbagy/UhlemannLab",
-    "updated_at": 1772905088.0
+    "updated_at": 1773770762.0
   },
   {
     "full_name": "bballew/cookiecutter-54gene-workflow",
@@ -7517,7 +7537,7 @@
   },
   {
     "full_name": "bennokr/makeprov",
-    "updated_at": 1764844810.0
+    "updated_at": 1773849652.0
   },
   {
     "full_name": "bennyyu79/test2",
@@ -7794,6 +7814,10 @@
   {
     "full_name": "bioinformatics-leibniz-hki/its-16s",
     "updated_at": 1715182445.0
+  },
+  {
+    "full_name": "bioinformaticsguy/GPML",
+    "updated_at": 1773757533.0
   },
   {
     "full_name": "biopackathon/BioPackathonMCP",
@@ -8677,7 +8701,7 @@
   },
   {
     "full_name": "colomemaria/benchmark_scrnaseq_cnv_callers",
-    "updated_at": 1748251359.0
+    "updated_at": 1773843547.0
   },
   {
     "full_name": "compbiocore/workflows_on_OSCAR",
@@ -8861,7 +8885,7 @@
   },
   {
     "full_name": "ctrapnell/genome569",
-    "updated_at": 1745686176.0
+    "updated_at": 1773859588.0
   },
   {
     "full_name": "cu-swe4s-fall-2023/Fire-Population-Analysis",
@@ -8913,7 +8937,7 @@
   },
   {
     "full_name": "cytomining/pycytominer",
-    "updated_at": 1773160492.0
+    "updated_at": 1773759640.0
   },
   {
     "full_name": "cznethub/master-spreadsheet-datasets",
@@ -9145,7 +9169,7 @@
   },
   {
     "full_name": "dcolinmorgan/pyGS",
-    "updated_at": 1769785928.0
+    "updated_at": 1773768173.0
   },
   {
     "full_name": "ddingding/native_promoter_bashing_reviewers",
@@ -10513,7 +10537,7 @@
   },
   {
     "full_name": "gmc-norr/config-files",
-    "updated_at": 1769505708.0
+    "updated_at": 1773825460.0
   },
   {
     "full_name": "gmc-norr/scout-annotation",
@@ -11408,6 +11432,10 @@
     "updated_at": 1759760875.0
   },
   {
+    "full_name": "janclemenslab/snakemake-workflows",
+    "updated_at": 1773855494.0
+  },
+  {
     "full_name": "japdlsd/positional_homologs",
     "updated_at": 1748008726.0
   },
@@ -11865,7 +11893,7 @@
   },
   {
     "full_name": "jose-cantu/MicroSeq",
-    "updated_at": 1773431233.0
+    "updated_at": 1773843650.0
   },
   {
     "full_name": "jose-manuel/npfc",
@@ -12145,11 +12173,11 @@
   },
   {
     "full_name": "kchuanglab/CUPID-seq",
-    "updated_at": 1772849495.0
+    "updated_at": 1773849946.0
   },
   {
     "full_name": "kdgosik/consulting",
-    "updated_at": 1770864010.0
+    "updated_at": 1773772305.0
   },
   {
     "full_name": "kdh4win4/AutoRNA",
@@ -12221,7 +12249,7 @@
   },
   {
     "full_name": "khanlab/SPIMquant",
-    "updated_at": 1773519703.0
+    "updated_at": 1773756207.0
   },
   {
     "full_name": "khanlab/billing-snakemake",
@@ -12386,6 +12414,14 @@
   {
     "full_name": "kokitsuyuzaki/urchin-workflow5",
     "updated_at": 1755910718.0
+  },
+  {
+    "full_name": "kokitsuyuzaki/urchin-workflow6",
+    "updated_at": 1773790125.0
+  },
+  {
+    "full_name": "kokitsuyuzaki/urchin-workflow6d",
+    "updated_at": 1773790102.0
   },
   {
     "full_name": "kolacat/a",
@@ -12658,6 +12694,10 @@
   {
     "full_name": "ledelst/toy_ISS",
     "updated_at": 1760365484.0
+  },
+  {
+    "full_name": "leenput/ECHO-pipeline",
+    "updated_at": 1773756745.0
   },
   {
     "full_name": "legend-exp/legend-prodenv",
@@ -13960,6 +14000,14 @@
     "updated_at": 1672895556.0
   },
   {
+    "full_name": "mrMekdad/reda-2020-snakemake-variant-skeleton",
+    "updated_at": 1773848883.0
+  },
+  {
+    "full_name": "mrMekdad/testOldPython",
+    "updated_at": 1773849186.0
+  },
+  {
     "full_name": "mriduls-sudo/SOC_Project",
     "updated_at": 1774020408.0
   },
@@ -14089,7 +14137,7 @@
   },
   {
     "full_name": "muraves/Software",
-    "updated_at": 1773137031.0
+    "updated_at": 1773829373.0
   },
   {
     "full_name": "mvandermolen001/data_processing",
@@ -14361,7 +14409,7 @@
   },
   {
     "full_name": "nezba00/scDINO",
-    "updated_at": 1772553627.0
+    "updated_at": 1773826437.0
   },
   {
     "full_name": "nfdi4health/docker-vambn",
@@ -14844,6 +14892,10 @@
     "updated_at": 1721204074.0
   },
   {
+    "full_name": "pablovargasmejia/SIREN",
+    "updated_at": 1773763095.0
+  },
+  {
     "full_name": "paddyharker1005/paddyharker1005",
     "updated_at": 1756726618.0
   },
@@ -14889,7 +14941,7 @@
   },
   {
     "full_name": "parklab/SMaHT_SNV_COLO829BLT50_HAPMAP",
-    "updated_at": 1773169733.0
+    "updated_at": 1773769538.0
   },
   {
     "full_name": "parklab/spatial_sampling_analysis",
@@ -14906,6 +14958,10 @@
   {
     "full_name": "patriciatran/patriciatran",
     "updated_at": 1726683867.0
+  },
+  {
+    "full_name": "patrickmineault/claude-cookie",
+    "updated_at": 1773794722.0
   },
   {
     "full_name": "pattiey/CD8_clustering",
@@ -14985,7 +15041,7 @@
   },
   {
     "full_name": "pbradleylab/phylogenize",
-    "updated_at": 1759067085.0
+    "updated_at": 1773839617.0
   },
   {
     "full_name": "pbuendia/snakemake-workflows",
@@ -15641,7 +15697,7 @@
   },
   {
     "full_name": "repx-org/repx",
-    "updated_at": 1773342451.0
+    "updated_at": 1773854878.0
   },
   {
     "full_name": "resheku/my-awesome",
@@ -16021,7 +16077,7 @@
   },
   {
     "full_name": "saezlab/greta",
-    "updated_at": 1773268114.0
+    "updated_at": 1773853502.0
   },
   {
     "full_name": "saezlab/kidney_biopsies_ArchR",
@@ -16172,6 +16228,10 @@
     "updated_at": 1773286749.0
   },
   {
+    "full_name": "sapporo-wes/wes-interop-demo",
+    "updated_at": 1773754026.0
+  },
+  {
     "full_name": "sara-nl/picas-profile",
     "updated_at": 1732013807.0
   },
@@ -16250,6 +16310,10 @@
   {
     "full_name": "schlesnerlab/vascularaging_rna",
     "updated_at": 1766426025.0
+  },
+  {
+    "full_name": "schmidtjacob46/rnaseq-crc-analysis",
+    "updated_at": 1773763906.0
   },
   {
     "full_name": "schoederlab/vaxpipe",
@@ -17252,6 +17316,10 @@
     "updated_at": 1754513850.0
   },
   {
+    "full_name": "sykefi/ffc-open-data-workflows",
+    "updated_at": 1773846483.0
+  },
+  {
     "full_name": "sylvainschmitt/climfor",
     "updated_at": 1729684497.0
   },
@@ -17325,7 +17393,7 @@
   },
   {
     "full_name": "tamlynkg/ITS2-LSU-Sequencing-Processing",
-    "updated_at": 1771411369.0
+    "updated_at": 1773826039.0
   },
   {
     "full_name": "taniasasaran/DataToolkitFinalProject",
@@ -17337,7 +17405,7 @@
   },
   {
     "full_name": "tanyaphung/fuma_qtls",
-    "updated_at": 1773417117.0
+    "updated_at": 1773839504.0
   },
   {
     "full_name": "tap919/Basketball-IDE",
@@ -17414,6 +17482,10 @@
   {
     "full_name": "terrimporter/MetaWorks",
     "updated_at": 1771806463.0
+  },
+  {
+    "full_name": "tesa1/ChIP_Zwart_public",
+    "updated_at": 1773843483.0
   },
   {
     "full_name": "teuben/AAS241",
@@ -17816,6 +17888,14 @@
     "updated_at": 1764714164.0
   },
   {
+    "full_name": "ucsusa/gas-plant-analysis",
+    "updated_at": 1773845580.0
+  },
+  {
+    "full_name": "ucsusa/python-analysis-template",
+    "updated_at": 1773956234.0
+  },
+  {
     "full_name": "udincer/psub",
     "updated_at": 1648791970.0
   },
@@ -17841,7 +17921,7 @@
   },
   {
     "full_name": "unmtransinfo/Badapple2",
-    "updated_at": 1764176601.0
+    "updated_at": 1773852834.0
   },
   {
     "full_name": "unmtransinfo/Drape",
@@ -18181,7 +18261,7 @@
   },
   {
     "full_name": "wdecoster/chr15q14",
-    "updated_at": 1771596505.0
+    "updated_at": 1773840531.0
   },
   {
     "full_name": "wdecoster/pathSTR",
