@@ -5,7 +5,7 @@
   },
   {
     "full_name": "1bellaa/ths-st3",
-    "updated_at": 1773216624.0
+    "updated_at": 1774305806.0
   },
   {
     "full_name": "1kg-ont-vienna/sv-analysis",
@@ -5045,7 +5045,7 @@
   },
   {
     "full_name": "Seandersen/RADS",
-    "updated_at": 1774228971.0
+    "updated_at": 1774320611.0
   },
   {
     "full_name": "SebastianDall/MicroPouch",
@@ -7618,6 +7618,10 @@
   {
     "full_name": "bhklab/bhklab-project-template",
     "updated_at": 1747069886.0
+  },
+  {
+    "full_name": "bhklab/novartis_pdxe_xevaset",
+    "updated_at": 1774359872.0
   },
   {
     "full_name": "bhklab/snakemake-storage-plugin-orcestra",
