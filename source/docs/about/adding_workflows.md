@@ -48,7 +48,7 @@ Once included in the standardized usage area you can link directly to the workfl
 Each standardized workflow has its own page, which is linked on the summary tables or the 'top workflows' tiles.
 Workflow pages are **enhanced by information automatically parsed** from their Github repositories. Right now this includes:
 
-1. **Tube Maps**: A graphical representation of the workflow rulegraph, build using [snakevision](https://github.com/OpenOmics/snakevision).
+1. **Tube Maps**: A graphical representation of the workflow rulegraph, built using [snakevision](https://github.com/OpenOmics/snakevision).
    Tube maps will automatically show up on your workflow page if the following command can be run for your workflow: `snakemake -s <snakefile> -c 1 -d .test --forceall --rulegraph`.
    This means, you need to have a working test case defined in the `.test` sub-dir.
 
