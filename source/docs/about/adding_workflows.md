@@ -1,4 +1,3 @@
-
 ## Adding workflows
 
 Workflows are **automatically added** to the Workflow Catalog. This is done by regularly searching Github repositories for matching workflow structures. The catalog includes workflows based on the following criteria.
@@ -12,7 +11,7 @@ Workflows are **automatically added** to the Workflow Catalog. This is done by r
 - The repository is small enough to be cloned into a [Github Actions](https://docs.github.com/en/actions/about-github-actions/understanding-github-actions) job (very large files should be handled via [Git LFS](https://docs.github.com/en/repositories/working-with-files/managing-large-files), so that they can be stripped out during cloning).
 - The repository is not blacklisted here.
 
-### *Standardized Usage* workflows
+### _Standardized Usage_ workflows
 
 In order to additionally appear in the "standardized usage" area, repositories additionally have to:
 
@@ -43,6 +42,23 @@ The content of the `.snakemake-workflow-catalog.yml` file is subject to change. 
 :::
 
 Once included in the standardized usage area you can link directly to the workflow page using the URL `https://snakemake.github.io/snakemake-workflow-catalog/docs/workflows/<owner>/<repo>`. Do not forget to replace the `<owner>` and `<repo>` tags at the end of the URL.
+
+### Workflow pages
+
+Each standardized workflow has its own page, which is linked on the summary tables or the 'top workflows' tiles.
+Workflow pages are **enhanced by information automatically parsed** from their Github repositories. Right now this includes:
+
+1. **Tube Maps**: A graphical representation of the workflow rulegraph, build using [snakevision](https://github.com/OpenOmics/snakevision).
+   Tube maps will automatically show up on your workflow page if the following command can be run for your workflow: `snakemake -s <snakefile> -c 1 -d .test --forceall --rulegraph`.
+   This means, you need to have a working test case defined in the `.test` sub-dir.
+
+2. **Workflow Configuration**: These are simply the configuration instructions from `config/README.md`.
+
+3. **Workflow Parameters**: If the repo contains a `workflow/schemas/config.schema.yaml` OR `config/schemas/config.schema.yaml` file, the parameters defined in this file will be parsed and displayed as a table on the workflow page.
+   The default fields that are recognized in the schema are `type`, `description`, `default` and `required`.
+   Config options can be arbitrarily nested in the schema using the `properties` field of an object.
+
+All these features are implemented in the [snakemake-workflow-template](https://github.com/snakemake-workflows/snakemake-workflow-template). If you want to create a standard-compliant workflow (page), the template is the ideal starting point.
 
 ### Release handling
 
