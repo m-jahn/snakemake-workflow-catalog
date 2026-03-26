@@ -80,8 +80,12 @@ def plot_rulegraph(output: Path, rg_dot: str) -> list[str]:
             sp.run(
                 snakevision_cmd + styles[style] + ["-o", str(svgfile)] + [str(dotfile)],
                 check=True,
+                capture_output=True,
             )
-        except sp.CalledProcessError:
+        except sp.CalledProcessError as e:
+            stderr = e.stderr.decode(errors="replace") if e.stderr else ""
+            if "NetworkXUnfeasible" in stderr:
+                print(f"Skipping rulegraph for {output.name}: graph layout not feasible (probably cyclic).")
             return []
         output_files.append(svgfile.name)
     return output_files
