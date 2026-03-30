@@ -1652,6 +1652,10 @@
     "updated_at": 1753918832.0
   },
   {
+    "full_name": "EBosi/structural-phylogenomics-workflow",
+    "updated_at": 1774822933.0
+  },
+  {
     "full_name": "EC528-Fall-2025/CloudNeuro-Tekton",
     "updated_at": 1765084490.0
   },
@@ -8533,7 +8537,7 @@
   },
   {
     "full_name": "christiaanjs/treeflow-paper",
-    "updated_at": 1773355498.0
+    "updated_at": 1774837008.0
   },
   {
     "full_name": "chrxw/cfDNA-Sequencing-Analysis",
@@ -9262,6 +9266,10 @@
   {
     "full_name": "dfporter/easyclip-snakemake",
     "updated_at": 1640660532.0
+  },
+  {
+    "full_name": "dgruano/rep_extraction_pipeline",
+    "updated_at": 1774810063.0
   },
   {
     "full_name": "dgunasekaran/snp_svant",
@@ -12154,6 +12162,10 @@
   {
     "full_name": "katstroh/RaLu-Genome",
     "updated_at": 1715275341.0
+  },
+  {
+    "full_name": "kavonrtep/busco2aster",
+    "updated_at": 1774800121.0
   },
   {
     "full_name": "kbase/allthebacteria",
@@ -16017,7 +16029,7 @@
   },
   {
     "full_name": "rwaples/simACE",
-    "updated_at": 1774380939.0
+    "updated_at": 1774825416.0
   },
   {
     "full_name": "rwdavies/QUILT-wrap",
@@ -16865,7 +16877,7 @@
   },
   {
     "full_name": "skojaku/detlim-stability",
-    "updated_at": 1772217913.0
+    "updated_at": 1774775603.0
   },
   {
     "full_name": "skojaku/embcom",
@@ -17614,6 +17626,10 @@
   {
     "full_name": "timedreamer/RNASeq_tutorial",
     "updated_at": 1698852475.0
+  },
+  {
+    "full_name": "timothydainlee/wecanvax",
+    "updated_at": 1774842950.0
   },
   {
     "full_name": "timtroendle/cookiecutter-reproducible-research",
