@@ -2253,7 +2253,7 @@
   },
   {
     "full_name": "GoyalLab/ExPert",
-    "updated_at": 1774459409.0
+    "updated_at": 1774668161.0
   },
   {
     "full_name": "GrantTiger/Demonstration-Pipeline",
@@ -5536,6 +5536,10 @@
     "updated_at": 1727085154.0
   },
   {
+    "full_name": "ThomasCarroll/Elicker_et_al_2026",
+    "updated_at": 1774623446.0
+  },
+  {
     "full_name": "ThorstenCodes/ATAC-seq_Footprinting",
     "updated_at": 1759174495.0
   },
@@ -5573,7 +5577,7 @@
   },
   {
     "full_name": "TomaszSuchan/sedaDNA-snakemake",
-    "updated_at": 1773838641.0
+    "updated_at": 1774656454.0
   },
   {
     "full_name": "Tomcxf/FASTdRNA",
