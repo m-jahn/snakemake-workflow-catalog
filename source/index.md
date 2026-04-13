@@ -51,7 +51,7 @@ We are excited to launch **two new features** in the Snakemake Workflow Catalog 
 
 The Snakemake Workflow Catalog aims to provide a regularly updated list of high-quality workflows that can be easily reused and adapted for various data analysis tasks. By leveraging the power of [**Snakemake**](https://snakemake.github.io/), these workflows promote:
 
-::::{grid} 3
+::::{grid} 1 2 3 3
 :::{grid-item-card} **Reproducibility**
 Snakemake workflows produce consistent results, making it easier to share and validate scientific findings.
 <img src="_static/icon_reproducibility_grey.svg" style="width:100%" />
