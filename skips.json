@@ -317,7 +317,7 @@
   },
   {
     "full_name": "AlgoLab/pygfa",
-    "updated_at": 1775201974.0
+    "updated_at": 1775715327.0
   },
   {
     "full_name": "AliA-Mohamed/AliA-Mohamed",
@@ -2726,6 +2726,10 @@
   {
     "full_name": "JimmyNkaiwuatei/snakemake",
     "updated_at": 1662098105.0
+  },
+  {
+    "full_name": "Jin-HoMLee/splice-neoepitope-pipeline",
+    "updated_at": 1775748626.0
   },
   {
     "full_name": "JiyaChachan/IS477_final_project",
@@ -5370,6 +5374,10 @@
   {
     "full_name": "SumeetTiwari07/atlas-singularity",
     "updated_at": 1642608669.0
+  },
+  {
+    "full_name": "Sung2021/ATACseq_pipeline_diffbind",
+    "updated_at": 1775768942.0
   },
   {
     "full_name": "SvetlanaUP/Microbiome-conferences-c",
@@ -9437,7 +9445,7 @@
   },
   {
     "full_name": "dmkv1/WES-snakemake",
-    "updated_at": 1772794484.0
+    "updated_at": 1775736337.0
   },
   {
     "full_name": "dms-vep/Nipah_Malaysia_RBP_DMS",
@@ -11157,7 +11165,7 @@
   },
   {
     "full_name": "ibs-CMG-NGS/rna-seq-pipeline",
-    "updated_at": 1773367784.0
+    "updated_at": 1775794157.0
   },
   {
     "full_name": "icervenka/rnaseq_pipeline_snakemake",
@@ -15120,6 +15128,10 @@
     "updated_at": 1726238110.0
   },
   {
+    "full_name": "peterhfalb/HTS_DADA2processing",
+    "updated_at": 1775752547.0
+  },
+  {
     "full_name": "pfcv99/pfcv99",
     "updated_at": 1737057696.0
   },
@@ -17745,7 +17757,7 @@
   },
   {
     "full_name": "tomarovsky/BuscoClade",
-    "updated_at": 1775416430.0
+    "updated_at": 1775839681.0
   },
   {
     "full_name": "tomarovsky/tomarovsky.github.io",
