@@ -1865,7 +1865,7 @@
   },
   {
     "full_name": "FADHLyemen/PathwayBench",
-    "updated_at": 1775298669.0
+    "updated_at": 1776055662.0
   },
   {
     "full_name": "FAST-HEP/fasthep-flow",
@@ -2366,6 +2366,10 @@
   {
     "full_name": "HartmannLab/GitWorkshop",
     "updated_at": 1715013314.0
+  },
+  {
+    "full_name": "Hayesss/RNAseq_full_pipe",
+    "updated_at": 1775989602.0
   },
   {
     "full_name": "Hckjs/sandsnake_dpps",
@@ -5049,7 +5053,7 @@
   },
   {
     "full_name": "Seandersen/RADS",
-    "updated_at": 1775228734.0
+    "updated_at": 1775939614.0
   },
   {
     "full_name": "SebastianDall/MicroPouch",
@@ -12173,7 +12177,7 @@
   },
   {
     "full_name": "kavonrtep/busco2aster",
-    "updated_at": 1775122108.0
+    "updated_at": 1776050967.0
   },
   {
     "full_name": "kbase/allthebacteria",
@@ -17906,6 +17910,10 @@
   {
     "full_name": "tylergross97/sample_pipelines_for_conversion",
     "updated_at": 1768573887.0
+  },
+  {
+    "full_name": "tylermaire/cx_pipiens_pangenome",
+    "updated_at": 1776023336.0
   },
   {
     "full_name": "tyongo/rnaseq-differential-expression-pipeline",
