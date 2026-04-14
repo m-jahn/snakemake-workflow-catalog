@@ -1,6 +1,6 @@
 # Top workflows by {{ input[0]["metric"] }}
 
-::::{grid} 3
+::::{grid} 1 2 3 3
 
 {% for repo in input -%}
 

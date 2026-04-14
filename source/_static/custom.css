@@ -1,9 +1,15 @@
 .image-reference img {
-  display: inline;
+  display: block;
+  text-align: center;
 }
 
 .image-reference {
   border-bottom: none !important;
+}
+
+.rounded-img {
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 table code.literal {

@@ -121,6 +121,7 @@ if test_repo is not None:
     total_count = 1
     offset = 0
     end = 1
+    end_log = 1
 else:
     assert "LATEST_COMMIT" in os.environ
     latest_commit = int(os.environ["LATEST_COMMIT"])
@@ -137,6 +138,7 @@ else:
     )
     # check before downloading a repo if it has a Snakefile
     end = min(offset + n_repos, total_count)
+    end_log = total_count if end == total_count else end - 1
     repo_list = []
     for i in range(offset, end):
         checked_repo = call_rate_limit_aware(lambda: repo_search[i], api_type="search")
@@ -145,7 +147,7 @@ else:
 
 
 logging.info(
-    f"Checking {total_count} repos ({offset}-{end-1}), of which {len(repo_list)} have a Snakefile."
+    f"Checking repos {offset}-{end_log} (total: {total_count}), of which {len(repo_list)} have a Snakefile."
 )
 
 for i, repo in enumerate(repo_list):
@@ -154,7 +156,7 @@ for i, repo in enumerate(repo_list):
         time.sleep(5)
 
     if i % 10 == 0:
-        logging.info(f"{i} of {total_count} repos done.")
+        logging.info(f"{i} of {len(repo_list)} repos done.")
 
     log_skip = lambda reason: logging.info(
         f"Skipped {repo.full_name} because {reason}."
