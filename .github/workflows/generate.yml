@@ -8,6 +8,7 @@ on:
 
 jobs:
   generate-catalog:
+    if: github.event_name == 'schedule' || github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -38,7 +39,7 @@ jobs:
           git commit -m "Add changes" -a || echo "No changes to commit"
 
       - name: Push changes
-        uses: ad-m/github-push-action@master
+        uses: ad-m/github-push-action@v1
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: ${{ github.ref }}
