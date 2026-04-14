@@ -6,7 +6,7 @@ on:
     types:
       - completed
   push:
-    branches: [main, dev]
+    branches: [main]
 
 defaults:
   run:
